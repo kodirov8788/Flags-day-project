@@ -26,14 +26,14 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
         if (wrong == 3) {
             setTimeout(() => {
                 navigate("/")
-            }, 3000);
+            }, 5000);
         }
 
 
         if (count > 9) {
             setTimeout(() => {
                 navigate("/")
-            }, 3000);
+            }, 5000);
         }
 
     }, [wrong, count])
