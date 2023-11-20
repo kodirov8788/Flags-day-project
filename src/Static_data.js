@@ -64,7 +64,7 @@ export const fake_data = [
     {
         id: 3,
         flag: swend,
-        options: ["Uzbiston", "China", "Sweden"],
+        options: ["uzbekiston", "China", "Sweden"],
         answer: "Sweden"
     },
     {
@@ -118,7 +118,7 @@ export const fake_data = [
     {
         id: 12,
         flag: Italy,
-        options: ["Uzbiston", "Italy", "Russian"],
+        options: ["uzbekiston", "Italy", "Russian"],
         answer: "Italy"
     },
     {
@@ -142,7 +142,7 @@ export const fake_data = [
     {
         id: 16,
         flag: SouthK,
-        options: ["Uzbiston", "South Korea", "Sweden"],
+        options: ["uzbekiston", "South Korea", "Sweden"],
         answer: "South Korea"
     },
     {
