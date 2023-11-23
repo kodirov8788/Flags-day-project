@@ -1,10 +1,18 @@
+import axios from '../../api/api'
 import React, { useEffect, useState } from 'react'
 import { useLocation, useNavigate } from 'react-router-dom'
 
 function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, wrong }) {
     const navigate = useNavigate()
     const [option, setOption] = useState([])
-    console.log("ans: ", ans)
+    // console.log("ans: ", ans)
+
+    const Count = async () => {
+
+        await axios.post("/visitors/testcount")
+            .then(res => console.log(res.data))
+            .catch(error => console.log(error))
+    }
     const FormFunction = (e) => {
         e.preventDefault()
         if (ans === "") {
@@ -21,9 +29,9 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
         }
         setAns("")
     }
-
     useEffect(() => {
         if (wrong == 3) {
+            Count()
             setTimeout(() => {
                 navigate("/")
             }, 5000);
@@ -31,6 +39,7 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
 
 
         if (count > 9) {
+            Count()
             setTimeout(() => {
                 navigate("/")
             }, 5000);
@@ -51,6 +60,9 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
         }
         generateDifferentPositions();
     }, [data])
+
+
+
     return (
 
         <div className=' w-[380px] mx-auto p-5 pt-[100px]'>
@@ -59,7 +71,7 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
                 <div className="flex mt-10">
                     {option?.map((el, inx) => (
                         <button key={inx} onClick={e => setAns(el)}
-                            class=" w-full m-auto block border focus:outline-none hover:bg-gray-100 font-medium rounded-lg text-lg  py-2.5 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700 ">{el}</button>
+                            className=" w-full m-auto block border focus:outline-none hover:bg-gray-100 font-medium rounded-lg text-lg  py-2.5 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700 ">{el}</button>
                     ))}
 
 
