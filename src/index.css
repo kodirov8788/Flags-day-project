@@ -3,9 +3,9 @@
 @tailwind utilities;
 
 .flags {
-  background-image: url("./image/flags.jpg");
+  background-image: url("./backgroundImages/flags.jpg");
 }
 
 .uzflag {
-  background-image: url("./image/uz-flag.jpg");
+  background-image: url("./backgroundImages/uz-flag.jpg");
 }
