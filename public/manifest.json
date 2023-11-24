@@ -1,9 +1,9 @@
 {
-  "short_name": "Flags",
-  "name": "Flags day project",
+  "short_name": "TESTOP",
+  "name": "TESTOP",
   "icons": [
     {
-      "src": "favicon.ico",
+      "src": "icon-flag.svg",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/x-icon"
     },
