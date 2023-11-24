@@ -1,6 +1,6 @@
 import axios from '../../api/api'
 import React, { useEffect, useState } from 'react'
-import { useLocation, useNavigate } from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 
 function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, wrong }) {
     const navigate = useNavigate()
@@ -36,8 +36,6 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
                 navigate("/")
             }, 5000);
         }
-
-
         if (count > 9) {
             Count()
             setTimeout(() => {
@@ -60,9 +58,7 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
         }
         generateDifferentPositions();
     }, [data])
-
-
-
+    9
     return (
 
         <div className=' w-[380px] mx-auto p-5 pt-[100px]'>
