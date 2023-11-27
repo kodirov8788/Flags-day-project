@@ -1,20 +1,20 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Country from './pages/Country';
-
+import { BrowserRouter } from 'react-router-dom';
+import Routers from './Routers';
+import { AuthContextProvider } from './context/AuthContext';
+import { ToastContainer } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route path='/' element={<App />} />
-        <Route path='/countrytest' element={<Country />} />
-      </Routes>
-    </BrowserRouter>
-
+    <AuthContextProvider>
+      <BrowserRouter>
+        <ToastContainer />
+        <Routers />
+      </BrowserRouter>
+    </AuthContextProvider>
   </React.StrictMode>
 );
 

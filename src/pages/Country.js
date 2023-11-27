@@ -1,6 +1,6 @@
 import { fake_data } from '../Static_data';
 import { useEffect, useState } from 'react';
-import Test from '../components/Test/Test';
+import Test from '../components/Test';
 import { Link } from 'react-router-dom';
 
 function County() {
@@ -33,7 +33,7 @@ function County() {
 
                 <Link to={-1} className='flex w-fit p-4 m-2 block border focus:outline-none hover:bg-gray-100 font-medium rounded-lg text-lg  py-2 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700 items-center'>
                     <svg className="w-6 h-6 text-white mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
-                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" d="M13 5H1m0 0 4 4M1 5l4-4" />
+                        <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 5H1m0 0 4 4M1 5l4-4" />
                     </svg><p>ortga qaytish</p></Link>
 
 

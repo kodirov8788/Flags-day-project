@@ -1,4 +1,4 @@
-import axios from '../../api/api'
+import axios from '../api/api'
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 
@@ -58,10 +58,9 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
         }
         generateDifferentPositions();
     }, [data])
-    9
-    return (
 
-        <div className=' w-[380px] mx-auto p-5 pt-[100px]'>
+    return (
+        <div className='w-[380px] mx-auto p-5 pt-[100px]'>
             {count > 9 || wrong > 2 ? <>{wrong > 2 ? <h1 className='text-white text-center text-2xl'>Afsus, siz yutqazdingiz, qayta harakat qilib ko'ring</h1> : <h1 className='text-white text-center text-2xl'>Siz g'olib bo'ldingiz, Tabriklayman</h1>}</> : <form onSubmit={FormFunction} className="card">
                 <img className='w-full rounded-lg mx-auto' src={data?.flag} alt="" />
                 <div className="flex mt-10">
@@ -69,13 +68,9 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
                         <button key={inx} onClick={e => setAns(el)}
                             className=" w-full m-auto block border focus:outline-none hover:bg-gray-100 font-medium rounded-lg text-lg  py-2.5 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700 ">{el}</button>
                     ))}
-
-
                 </div>
-
             </form>
             }
-
         </div>
     )
 }
