@@ -22,7 +22,7 @@ function MainPage() {
                     <h1 className="mt-[40px]">Bayroqlarni yaxshi bilasizmi?</h1>
                     <h1>Yaxshi unda</h1>
                     <h1>O'zingizni sinab ko'ring: </h1>
-                    <Link to={"/countrytest"} className="mt-[100px] w-3/5 m-auto block border focus:outline-none hover:bg-gray-100 font-medium rounded-lg text-lg px-5 py-2.5 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700 animate-bounce">Testga o'tish</Link>
+                    <Link to={"/countrytest"} className="mt-[100px] w-3/5 m-auto block border focus:outline-nonefont-medium rounded-lg text-lg px-5 py-2.5 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700 animate-bounce">Testga o'tish</Link>
                 </div>
 
             </div>
