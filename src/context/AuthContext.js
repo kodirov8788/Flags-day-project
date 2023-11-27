@@ -15,25 +15,30 @@ export const authReducer = (state, action) => {
 
 export const AuthContextProvider = ({ children }) => {
   const [isLoading, setIsLoading] = useState(false);
-  const [sensor, setSensor] = useState(false)
-  const [state, dispatch] = useReducer(authReducer, {
-    user: null
-  })
+  const [sensor, setSensor] = useState(false);
+
+  // Retrieve state from localStorage or use default if it doesn't exist
+  const initialState = JSON.parse(localStorage.getItem('authState')) || { user: null };
+  const [state, dispatch] = useReducer(authReducer, initialState);
+
+  // Save state to localStorage whenever it changes
+  useEffect(() => {
+    localStorage.setItem('authState', JSON.stringify(state));
+  }, [state]);
 
   useEffect(() => {
-    const user = JSON.parse(localStorage.getItem('user'))
+    const user = JSON.parse(localStorage.getItem('user'));
 
     if (user) {
-      dispatch({ type: 'LOGIN', payload: user })
+      dispatch({ type: 'LOGIN', payload: user });
     }
-  }, [])
-
-  // console.log('AuthContext state:', state)
+  }, []);
 
   return (
-    <AuthContext.Provider value={{ ...state, dispatch, isLoading, setIsLoading, sensor, setSensor }}>
+    <AuthContext.Provider
+      value={{ ...state, dispatch, isLoading, setIsLoading, sensor, setSensor }}
+    >
       {children}
     </AuthContext.Provider>
-  )
-
-}
+  );
+};

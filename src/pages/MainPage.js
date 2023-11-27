@@ -11,8 +11,6 @@ function MainPage() {
         getApi()
     });
 
-
-
     return (
         <div className="flags w-full h-screen bg-center bg-cover relative">
             <div className="absolute bg-black/40 w-full h-full top-0 left-0 "></div>
