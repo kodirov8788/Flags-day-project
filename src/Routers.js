@@ -6,9 +6,10 @@ import Login from "./pages/Login";
 import { useAuthContext } from "./hooks/useAuthContext";
 import { AuthContext } from "./context/AuthContext";
 import { useContext } from "react";
-import Createcategory from "./admin/adminComponents/Createcategory";
+import Createcategory from "./admin/adminComponents/category/Createcategory";
 import Dashboard from "./admin/adminComponents/Dashboard";
 import Createproduct from "./admin/adminComponents/Createproduct";
+import Editcategory from "./admin/adminComponents/category/Editcategory";
 
 function Routers() {
   const { user } = useAuthContext()
@@ -25,6 +26,9 @@ function Routers() {
           {/* Child Routes */}
           <Route path='' element={<Dashboard />} />
           <Route path='createcategory' element={<Createcategory />} />
+
+
+          <Route path='createcategory/:id' element={<Editcategory />} />
           <Route path='createproduct' element={<Createproduct />} />
           {/* Add more child routes here as needed */}
         </Route>
