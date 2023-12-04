@@ -104,11 +104,11 @@ function Createcategory() {
                         </form>
                     </div>
                 </div>
-                <div className="grid md:grid-cols-2 gap-4 mb-4">
+                <div className="grid  md:grid-cols-2 gap-4 mb-4">
                     {
                         getCategories.map(category => (
                             <div key={category._id} className="flex flex-col items-center justify-center rounded bg-gray-50  dark:bg-gray-800 p-5">
-                                <img class="w-3/4 rounded-lg" src={category.images[0].url} alt="image description" />
+                                <img class="w-3/4 rounded-lg h-1/2 object-cover " src={category.images[0].url} alt="image description" />
 
                                 <h1 className="text-2xl   text-gray-800 dark:text-gray-200">
                                     {category.categoryName}
