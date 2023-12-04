@@ -8,7 +8,7 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
     const [selectedOption, setSelectedOption] = useState(null) // To keep track of the selected option
     const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
     const [buttonsDisabled, setButtonsDisabled] = useState(false)
-    console.log(data)
+    // console.log(data)
     const Count = async () => {
 
         await axios.post("/visitors/testcount")

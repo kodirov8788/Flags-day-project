@@ -12,10 +12,7 @@ function Testpage() {
     const [ans, setAns] = useState("")
     const [realData, setRealData] = useState([])
     const [products, setProducts] = useState([])
-    // console.log(realData)
-    // console.log(paramId)
 
-    // console.log(products)
 
 
     useEffect(() => {
@@ -32,10 +29,6 @@ function Testpage() {
         getData()
     }, [])
 
-    // console.log(realData)
-
-
-
     useEffect(() => {
         function generateDifferentPositions() {
             function shuffle(array) {
@@ -51,7 +44,6 @@ function Testpage() {
     }, [products])
 
     let data = realData[count]
-    console.log(data)
     return (
         <div className="uzflag bg-center bg-cover w-full h-screen">
             <div className="absolute bg-black/40 w-full h-full top-0 left-0 "></div>

@@ -6,7 +6,7 @@ import FlagImage from "../backgroundImages/uz-flag.jpg"
 
 function StartTest() {
     const [getCategories, setGetCategories] = useState([])
-    console.log(getCategories)
+    // console.log(getCategories)
     const { setIsLoading, sensor, setSensor } = useContext(AuthContext)
     const getApi = async () => {
         await axios.post("/visitors/addmaincount")
