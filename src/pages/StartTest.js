@@ -31,7 +31,7 @@ function StartTest() {
     }, [sensor])
 
     return (
-        <div className="flags bg-fixed top-0 w-full min-h-screen bg-center bg-cover relative">
+        <div className="flags bg-fixed top-0 w-full h-screen bg-center bg-cover relative">
             <div className="absolute bg-black/40 w-full h-full top-0 left-0 "></div>
 
             <div className="text-white z-100 absolute w-full h-full">
