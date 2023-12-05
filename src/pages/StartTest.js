@@ -41,7 +41,7 @@ function StartTest() {
                     </svg><p>ortga qaytish</p></Link>
 
 
-                <div className="w-[350px] h-[700px] mx-auto overflow-y-auto mt-[30px]">
+                <div className="w-[350px] h-[700px] mx-auto overflow-y-auto mt-[30px]  rounded-sm">
                     <div className="w-full  mx-auto  text-center text-2xl font-bold overflow-y-auto leading-10  bg-transparent">
 
                         {getCategories.map(category => (<>
