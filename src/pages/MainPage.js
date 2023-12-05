@@ -17,7 +17,7 @@ function MainPage() {
             <div className="text-white z-100 absolute w-full h-full">
                 <div className="w-[350px]  mx-auto mt-[150px] text-center text-2xl font-bold leading-10">
                     <h1 className="text-3xl text-white ">Assalomu alaykum</h1>
-                    <h1 className="mt-[40px]">Bayroqlarni yaxshi bilasizmi?</h1>
+                    <h1 className="mt-[40px]">Bayroqlar va Qonunlarni <br />yaxshi bilasizmi?</h1>
                     <h1>Yaxshi unda</h1>
                     <h1>O'zingizni sinab ko'ring: </h1>
                     <Link to={"/tests"} className="mt-[100px] w-3/5 m-auto block border focus:outline-nonefont-medium rounded-lg text-lg px-5 py-2.5 bg-gray-800 text-white border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700 animate-bounce">Testga o'tish</Link>
