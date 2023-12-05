@@ -81,11 +81,11 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
     }, [data])
 
     return (
-        <div className='w-[380px] mx-auto p-5 pt-[100px]'>
+        <div className='w-[300px] min-[370px]:w-[370px] mx-auto sm:w-[450px] p-5 pt-[50px]'>
             {count > 9 || wrong > 2 ? <>{wrong > 2 ? <h1 className='text-gray-200 text-center text-2xl'>Afsus, siz yutqazdingiz, qayta harakat qilib ko'ring</h1> : <h1 className='text-gray-200 text-center text-2xl'>Siz g'olib bo'ldingiz, Tabriklayman</h1>}</> :
                 <form onSubmit={FormFunction} className="card">
                     {data?.productImages[0] ? (
-                        <img className='w-full rounded-lg mx-auto' src={data.productImages[0]?.url} alt="" />
+                        <img className='w-full h-[150px] rounded-lg mx-auto' src={data.productImages[0]?.url} alt="" />
                     ) : (
                         <p className='text-lg max-h-[300px] text-gray-200 overflow-y-auto   border text-center p-3 mt-3 rounded '>
                             {data?.productText}
