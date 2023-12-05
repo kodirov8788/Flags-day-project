@@ -1,11 +1,13 @@
 // import { fake_data } from '../Static_data';
-import { useEffect, useState } from 'react';
+import { useContext, useEffect, useState } from 'react';
 import Test from '../components/Test';
 import { Link, useParams } from 'react-router-dom';
 import axios from '../api/api';
+import { AuthContext } from '../context/AuthContext';
 
 function Testpage() {
     const paramId = useParams().id
+    const { setIsLoading } = useContext(AuthContext)
     const [count, setCount] = useState(0)
     const [wrong, setWrong] = useState(0)
     const [right, setRight] = useState(0)
@@ -17,13 +19,20 @@ function Testpage() {
 
     useEffect(() => {
         const getData = async () => {
+            setIsLoading(true)
             try {
                 await axios.get("product/getall").then(res => {
                     let data = res.data.filter(el => el.productCategory === paramId)
                     setProducts(data)
-                }).catch(error => console.log(error))
+                    setIsLoading(false)
+
+                }).catch(error => {
+                    setIsLoading(false)
+                    console.log(error)
+                })
             } catch (error) {
                 console.log(error)
+                setIsLoading(false)
             }
         }
         getData()

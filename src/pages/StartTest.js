@@ -8,21 +8,19 @@ function StartTest() {
     const [getCategories, setGetCategories] = useState([])
     // console.log(getCategories)
     const { setIsLoading, sensor, setSensor } = useContext(AuthContext)
-    const getApi = async () => {
-        await axios.post("/visitors/addmaincount")
-            .then(res => console.log(res.data))
-            .catch(error => console.log(error))
-    }
-    window.addEventListener("load", (event) => {
-        getApi()
-    });
+
     useEffect(() => {
         const getData = async () => {
+            setIsLoading(true)
             try {
                 await axios.get("category/getall").then(res => {
                     setGetCategories(res.data)
                     console.log(res.data)
-                }).catch(error => console.log(error))
+                    setIsLoading(false)
+                }).catch(error => {
+                    setIsLoading(false)
+                    console.log(error)
+                })
             } catch (error) {
                 console.log(error)
             }

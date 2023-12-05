@@ -1,6 +1,7 @@
 import axios from '../api/api'
-import React, { useEffect, useState } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
+import { AuthContext } from '../context/AuthContext'
 
 function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, wrong }) {
     const navigate = useNavigate()
@@ -8,9 +9,10 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
     const [selectedOption, setSelectedOption] = useState(null) // To keep track of the selected option
     const [showCorrectAnswer, setShowCorrectAnswer] = useState(false)
     const [buttonsDisabled, setButtonsDisabled] = useState(false)
+    const { setIsLoading } = useContext(AuthContext)
+
     // console.log(data)
     const Count = async () => {
-
         await axios.post("/visitors/testcount")
             .then(res => console.log(res.data))
             .catch(error => console.log(error))
@@ -60,17 +62,22 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
 
 
     useEffect(() => {
-        function generateDifferentPositions() {
-            function shuffle(array) {
-                for (let i = array?.length - 1; i > 0; i--) {
-                    const j = Math.floor(Math.random() * (i + 1));
-                    [array[i], array[j]] = [array[j], array[i]];
+        setIsLoading(true)
+        setTimeout(() => {
+            function generateDifferentPositions() {
+                function shuffle(array) {
+                    for (let i = array?.length - 1; i > 0; i--) {
+                        const j = Math.floor(Math.random() * (i + 1));
+                        [array[i], array[j]] = [array[j], array[i]];
+                    }
+                    return array;
                 }
-                return array;
+                setOption(shuffle([data?.productOptions][0]))
             }
-            setOption(shuffle([data?.productOptions][0]))
-        }
-        generateDifferentPositions();
+            generateDifferentPositions();
+            setIsLoading(false)
+            console.log("ishladi")
+        }, 1000);
     }, [data])
 
     return (
