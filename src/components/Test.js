@@ -82,7 +82,7 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
     }, [data])
 
     return (
-        <div className='w-[300px] min-[370px]:w-[370px] mx-auto sm:w-[450px] p-5 pt-[50px]'>
+        <div className='w-[300px] min-[370px]:w-[370px] mx-auto sm:w-[450px] p-5 pt-[30px]'>
             {count > 9 || wrong > 2 ? <>{wrong > 2 ?
 
                 <h1 className='text-gray-200 text-center text-2xl'>Afsus, siz yutqazdingiz, qayta harakat qilib ko'ring</h1> : <h1 className='text-gray-200 text-center text-2xl'>Siz g'olib bo'ldingiz, Tabriklayman</h1>}</> :
@@ -90,9 +90,12 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
                     {data?.productImages[0] ? (
                         <img className='w-full h-[150px] rounded-lg mx-auto' src={data.productImages[0]?.url} alt="" />
                     ) : (
-                        <p className='text-lg max-h-[300px] text-gray-200 overflow-y-auto   border text-center p-3 mt-3 rounded '>
-                            {data?.productText}
-                        </p>
+                        <div className="border max-h-[300px] overflow-y-auto relative bg-black/40 rounded">
+                            <p className='text-lg  text-white    text-center p-3 mt-3  '>
+                                {data?.productText}
+                            </p>
+                        </div>
+
                     )}
                     <h1 className='mt-5 text-center mx-auto text-2xl text-gray-200 '> Javoblardan birini tanglang!</h1>
                     <div className="flex mt-5">
@@ -114,7 +117,7 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
                     </div>
 
                     <button onClick={() => setCount(count + 1)} type='button'
-                        className={'w-full m-auto mt-10 block border focus:outline-none font-medium rounded-lg text-lg py-2.5 bg-gray-800 text-gray-200 border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700'}>
+                        className={'w-full m-auto mt-5 block border focus:outline-none font-medium rounded-lg text-lg py-2.5 bg-gray-800 text-gray-200 border-gray-600 hover:bg-gray-700 hover:border-gray-600 focus:ring-gray-700'}>
                         Keyingisi
                     </button>
                 </form>
