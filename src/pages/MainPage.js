@@ -1,5 +1,6 @@
 import axios from "../api/api";
 import { Link } from "react-router-dom";
+import Contact from "../components/Contact";
 
 function MainPage() {
     const getApi = async () => {
@@ -15,6 +16,7 @@ function MainPage() {
         <div className="flags w-full h-screen bg-center bg-cover relative">
             <div className="absolute bg-black/40 w-full h-full top-0 left-0 "></div>
             <div className="text-white z-100 absolute w-full h-full">
+                {/* <Contact /> */}
                 <div className="w-[300px]   min-[350px]:w-[350px]  mx-auto mt-[150px] text-center text-2xl font-bold leading-10">
                     <h1 className="text-2xl min-[350px]:text-3xl text-white ">Assalomu alaykum</h1>
                     <h1 className="mt-[40px]">Bayroqlar va Qonunlarni <br />yaxshi bilasizmi?</h1>

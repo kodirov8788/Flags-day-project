@@ -3,7 +3,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { AuthContext } from '../context/AuthContext'
 
-function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, wrong }) {
+function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, wrong, setSwicher }) {
     const navigate = useNavigate()
     const [option, setOption] = useState([])
     const [selectedOption, setSelectedOption] = useState(null) // To keep track of the selected option
@@ -54,7 +54,8 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
 
         if (wrong === 3 || count > 9) {
             Count();
-            timeoutId = setTimeout(checkNavigation, 5000);
+            setSwicher(true)
+            // timeoutId = setTimeout(checkNavigation, 5000);
         }
 
         return () => clearTimeout(timeoutId);
@@ -82,7 +83,9 @@ function Test({ setRight, right, data, ans, setAns, setCount, count, setWrong, w
 
     return (
         <div className='w-[300px] min-[370px]:w-[370px] mx-auto sm:w-[450px] p-5 pt-[50px]'>
-            {count > 9 || wrong > 2 ? <>{wrong > 2 ? <h1 className='text-gray-200 text-center text-2xl'>Afsus, siz yutqazdingiz, qayta harakat qilib ko'ring</h1> : <h1 className='text-gray-200 text-center text-2xl'>Siz g'olib bo'ldingiz, Tabriklayman</h1>}</> :
+            {count > 9 || wrong > 2 ? <>{wrong > 2 ?
+
+                <h1 className='text-gray-200 text-center text-2xl'>Afsus, siz yutqazdingiz, qayta harakat qilib ko'ring</h1> : <h1 className='text-gray-200 text-center text-2xl'>Siz g'olib bo'ldingiz, Tabriklayman</h1>}</> :
                 <form onSubmit={FormFunction} className="card">
                     {data?.productImages[0] ? (
                         <img className='w-full h-[150px] rounded-lg mx-auto' src={data.productImages[0]?.url} alt="" />

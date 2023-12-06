@@ -66,22 +66,26 @@ function Createcategory() {
 
 
     const deleteCategory = async (id) => {
+        setIsLoading(true)
         try {
             const response = await axios.delete(`/category/delete/${id}`);
-
+            console.log(response)
             if (response.status === 200) {
                 toast.success("Muvaffaqqiyatli categoriyani o'chirdingiz!", {
                     position: toast.POSITION.TOP_RIGHT
                 });
+                setIsLoading(false)
             } else {
                 toast.error("Failed to delete category", {
                     position: toast.POSITION.TOP_RIGHT
                 });
+                setIsLoading(false)
             }
         } catch (error) {
             toast.error(("Failed to delete category", error), {
                 position: toast.POSITION.TOP_RIGHT
             });
+            setIsLoading(false)
         }
     };
 

@@ -4,6 +4,7 @@ import Test from '../components/Test';
 import { Link, useParams } from 'react-router-dom';
 import axios from '../api/api';
 import { AuthContext } from '../context/AuthContext';
+import Contact from '../components/Contact';
 
 function Testpage() {
     const paramId = useParams().id
@@ -14,6 +15,9 @@ function Testpage() {
     const [ans, setAns] = useState("")
     const [realData, setRealData] = useState([])
     const [products, setProducts] = useState([])
+    const [switcher, setSwicher] = useState(false)
+
+
 
 
 
@@ -55,6 +59,8 @@ function Testpage() {
     let data = realData[count]
     return (
         <div className="uzflag bg-center bg-cover w-full h-screen">
+            <div className="absolute bg-black/40 w-full h-full top-0 left-0 "></div>
+
             {/* <div className="absolute bg-black/40 w-full h-full top-0 left-0 "></div> */}
 
             <div className="absolute z-10 w-full h-full">
@@ -63,11 +69,12 @@ function Testpage() {
                     <svg className="w-6 h-6 text-white mr-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                         <path stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 5H1m0 0 4 4M1 5l4-4" />
                     </svg><p>ortga qaytish</p></Link>
-                <Test setRight={setRight} right={right} wrong={wrong} setWrong={setWrong} data={data} ans={ans} setAns={setAns} setCount={setCount} count={count} />
+                <Test setRight={setRight} right={right} wrong={wrong} setWrong={setWrong} data={data} ans={ans} setAns={setAns} setCount={setCount} count={count} setSwicher={setSwicher} />
                 <div className='flex justify-between text-center w-[300px] min-[350px]:w-[350px] mx-auto text-2xl text-white '>
                     <h1>To'gri : <b className='text-green-500'>{right}</b> </h1>
                     <h1>Noto'gri : <b className='text-red-500'>{wrong}</b> </h1>
                 </div>
+                <Contact switcher={switcher} />
             </div>
 
         </div >
