@@ -172,45 +172,22 @@ import Tanzaniya from "./image/Tanzania.png";
 import Tailand from "./image/Tailand.png";
 import SharqTimor from "./image/Sharqiy Timor.jpeg"
 import Togo from "./image/Togo.png";
-
-
-
-
-
-
-
-
-
-
-
-import uzb from "./image/uzb.png";
-import United from "./image/United.jpg";
-import Turkiya from "./image/Turkiya.png";
-import Qatar from "./image/qatar-flag__19414.1639690374.1280.1280.webp";
 import Tonga from "./image/Tonga.png";
-import Venesuela from "./image/Venezuela.png";
-import Yaman from "./image/Yemen.png";
-import Laos from "./image/Laos.png";
-// import Qirgiziston from "./image/Qirg'iziston.jpg";
-import Turkmaniston from "./image/Turkmenistan.png";
-import Iordaniya from "./image/Jordan.png";
-import Zambiya from "./image/Zambia.webp";
-import Uganda from "./image/Uganda.webp";
-import Zambiaflag from "./image/Zambia.webp";
-import Aland from "./image/Aland.png";
-import Vanuatu from "./image/Vanuatu.png";
-import Vatikan from "./image/Vatikan.jpg";
-import Vyetnam from "./image/Vyetnam.webp";
-import Gruziya from "./image/Gruziya.webp";
-import coted from "./image/coted.png";
-import Moldaviya from "./image/Moldaviya.png";
 import TrinidadTobago from "./image/Trinidad.png";
-import Tuvalu from "./image/Tuvalu.png";
 import Tunis from "./image/Tunis.png";
+import Turkiya from "./image/Turkiya.png";
+import Turkmaniston from "./image/Turkmenistan.png";
+import Tuvalu from "./image/Tuvalu.png";
+import Uganda from "./image/Uganda.webp";
 import Ukraina from "./image/Ukraina.png";
+import birlashganA from "./image/birlashganArab.png"
+import Britaniya from "./image/United.jpg";
+import AQSH from "./image/Us.png"
 import Urugvay from "./image/Urugvay.webp";
-// import Afgoniston from "./image/Afgʻoniston.png";
-import Koreya from "./image/Koreya Demokratik.png";
+
+
+
+
 
 export const fake_data = [
   {
@@ -1301,76 +1278,76 @@ export const fake_data = [
     options: ["Togo", "Venesuela", "Gabon"],
     answer: "Togo",
   },
-  {
+  { 
     id: 181,
-    flag: Eritreya,
-    options: ["Chexiya", "Tuvalu", "Eritreya"],
-    answer: "Eritreya",
+    flag: Tonga,
+    options: ["Gana", "Tonga", "Turkiya"],
+    answer: "Tonga",
   },
-  {
+  { 
     id: 182,
-    flag: Eron,
-    options: ["Tailand", "Eron", "Vengriya"],
-    answer: "Eron",
+    flag: TrinidadTobago,
+    options: ["Turkmaniston", "Gayana", "Trinidad va Tobago"],
+    answer: "Trinidad va Tobago",
   },
-  {
+  { 
     id: 183,
-    flag: Esvatini,
-    options: ["Fiji", "Esvatini", "Shrilank"],
-    answer: "Esvatini",
+    flag: Tunis,
+    options: ["Yaponiya", "Tunis", "Tuvalu"],
+    answer: "Tunis",
   },
-  {
+  { 
     id: 184,
-    flag: Estoniya,
-    options: ["Estoniya", "Togo", "Nepal"],
-    answer: "Estoniya",
+    flag: Turkiya,
+    options: ["Zimbabve", "Uganda", "Turkiya"],
+    answer: "Turkiya",
   },
-  {
+  { 
     id: 185,
-    flag: Yamayka,
-    options: ["Iordaniya", "Togo", "Yamayka"],
-    answer: "Yamayka",
+    flag: Turkmaniston,
+    options: ["Turkmaniston", "Shveytsariya", "Ukraina"],
+    answer: "Turkmaniston",
   },
-  {
+  { 
     id: 186,
-    flag: Qirgiziston,
-    options: ["Qirgʻiziston", "Eron", "Uzbekiston"],
-    answer: "Qirgʻiziston",
+    flag: Tuvalu,
+    options: ["Niderlandiya", "Eron", "Tuvalu"],
+    answer: "Tuvalu",
   },
-  {
+  { 
     id: 187,
-    flag: Quvayt,
-    options: ["Yaponiya", "Yamayka", "Quvayt"],
-    answer: "Quvayt",
+    flag: Uganda,
+    options: ["Qatar", "Yamayka", "Uganda"],
+    answer: "Uganda",
   },
-  {
+  { 
     id: 188,
-    flag: Mikroneziya,
-    options: ["Iordaniya", "Mikroneziya Federativ Shtatlar", "Avstiriya"],
-    answer: "Mikroneziya Federativ Shtatlar",
+    flag: Ukraina,
+    options: ["Iordaniya", "Janubiy Koreya", "Urugvay"],
+    answer: "Ukraina",
   },
-  {
+  { 
     id: 189,
-    flag: AntiguaB,
-    options: ["Antigua va Barbuda", "Xitoy", "Bangladesh"],
-    answer: "Antigua va Barbuda",
+    flag: birlashganA,
+    options: ["Birlashgan Arab Amirliklari", "AQSH", "Moldova"],
+    answer: "Birlashgan Arab Amirliklari",
   },
-  {
+  { 
     id: 190,
-    flag: Afgoniston,
-    options: ["Isroil", "Quvayt", "Afgʻoniston"],
-    answer: "Afgʻoniston",
+    flag: Britaniya,
+    options: ["Britaniya", "Panama", "Oʻzbekiston"],
+    answer: "Britaniya",
   },
-  {
+  { 
     id: 191,
-    flag: DominikanR,
-    options: ["Iordaniya", "Dominikan Respublikasi", "Yamayka"],
-    answer: "Dominikan Respublikasi",
+    flag: AQSH,
+    options: ["Mavritaniya", "AQSH", "Vyetnam"],
+    answer: "AQSH",
   },
-  {
+  { 
     id: 192,
-    flag: Koreya,
-    options: ["CHili", "Koreya Demokratik", "Xitoy"],
-    answer: "Koreya Demokratik",
+    flag: Urugvay,
+    options: ["Urugvay", "Monako", "Vanuatu"],
+    answer: "Urugvay",
   },
 ];
