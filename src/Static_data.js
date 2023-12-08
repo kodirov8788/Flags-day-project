@@ -1,303 +1,326 @@
-import uzb from "./image/uzb.png";
-import ger from "./image/ger.png";
-import swend from "./image/swend.png";
-import swider from "./image/swider.png";
-import Netherlands from "./image/Netherlands.png";
-import newZeland from "./image/new zeland.png";
-import Kanada from "./image/canada.png";
-import United from "./image/United.jpg";
-import Yaponiya from "./image/Japan.png";
-import Avstraliya from "./image/Australia.png";
-import Norvegiya from "./image/Norway.png";
-import Italiya from "./image/Italy.png";
-import Daniya from "./image/Denmark.png";
-import Fransiya from "./image/fransiya.png";
-import SouthK from "./image/SouthKorea.jpg";
-import Braziliya from "./image/Brazil.png";
-import Xitoy from "./image/China.png";
-import Hindiston from "./image/India.png";
-import Marokash from "./image/Morocco.jpg";
-import Afrika from "./image/Africa.webp";
-import Finlandiya from "./image/Finland.png";
-import Turkiya from "./image/Turkiya.png";
-import Rossiya from "./image/Russia.png";
-import Belgiya from "./image/Belgium.png";
-import Indoneziya from "./image/Indonesia.png";
-import Argentina from "./image/Argentina.png";
-import Kolumbiya from "./image/Colombia.avif";
-import Qozogiston from "./image/Kazakhstan.png";
-import Belarus from "./image/Belarus.png";
-import Latviya from "./image/Latvia.png";
-import Litva from "./image/Lithuania.png";
-import Livan from "./image/Lebanon.png";
-import Serbiya from "./image/Serbia.png";
-import Bahrayn from "./image/Bahrain.png";
-import Kamerun from "./image/Cameroon.png";
-import Jazoir from "./image/Algeria.png";
-import Misr from "./image/Egypt.jpg";
-import Isroil from "./image/Israel.png";
-import Peru from "./image/Peru.png";
-import Palau from "./image/Palau.png";
-import Moldova from "./image/Moldova.webp";
-import Gabon from "./image/Gabon.jpg";
-import Meksika from "./image/Mexico.jpg";
-import Qatar from "./image/qatar-flag__19414.1639690374.1280.1280.webp";
-import Oman from "./image/Oman.png";
-import Pokiston from "./image/Pakistan.png";
-import Malayziya from "./image/Malaysia.png";
-import Tonga from "./image/Tonga.png";
-import Xorvatiya from "./image/Croatia.png";
-import Polsha from "./image/Poland.png";
-import NorthK from "./image/NorthK.webp";
-import Venesuela from "./image/Venezuela.png";
-import Ekvador from "./image/Ecuador.png";
-import Chili from "./image/Chile.png";
-import Gvatemala from "./image/Guatemala.webp";
-import Kuba from "./image/Cuba.webp";
-import Panama from "./image/Panama.png";
-import CostaR from "./image/CostaR.webp";
-import ElSalvador from "./image/ElSalvador.png";
-import Yaman from "./image/Yemen.png";
-import Bangladesh from "./image/Bangladesh.png";
-import Lyuksemburg from "./image/Luxembourg.png";
-import Singapur from "./image/Singapore.webp";
-import Brunei from "./image/Brunei Darussalam.png";
-import Myanma from "./image/Myanmar.jpg";
-import Laos from "./image/Laos.png";
-// import Qirgiziston from "./image/Qirg'iziston.jpg";
-import Turkmaniston from "./image/Turkmenistan.png";
-import Tajikistan from "./image/Tajikistan.png";
-import SaudiA from "./image/SaudiA.png";
-import Iordaniya from "./image/Jordan.png";
-import Efiopiya from "./image/Ethiopia.png";
-import Nigeriya from "./image/Nigeria.webp";
-import Jibuti from "./image/Djibouti.webp";
-import Keniya from "./image/Kenya.png";
-import Gana from "./image/Ghana.png";
-import BurkinaF from "./image/BurkinaF.png";
-import Mali from "./image/Mali.webp";
-import Gvineya from "./image/Guinea.png";
-import Senegal from "./image/Senegal.png";
-import Lesoto from "./image/Lesotho.png";
-import Botsvana from "./image/Botswana.png";
-import Zimbabve from "./image/zimbabwe.png";
-import Zambiya from "./image/Zambia.webp";
-import Malavi from "./image/Malawi.webp";
-import Burundi from "./image/Burundi.webp";
-import Ruanda from "./image/Rwanda.png";
-import Uganda from "./image/Uganda.webp";
-import Tanzaniya from "./image/Tanzania.png";
-import Zambiaflag from "./image/Zambia.webp";
 import Afgoniston from "./image/Afghanistan.png";
-import Aland from "./image/Aland.png";
 import Albaniya from "./image/Albania.png";
-import Andorra from "./image/Andorra.png";
+import Jazoir from "./image/Algeria.png";
 import Angola from "./image/Angola.png";
+import Andorra from './image/Andorra.png'
+import AntiguaB from "./image/Antigua va Barbuda.png";
+import Argentina from "./image/Argentina.png";
 import Armaniston from "./image/Armaniston.webp";
+import Avstraliya from "./image/Australia.png";
+import Avstriya from './image/Avstriya.jpg'
+import Ozarbayjon from "./image/Ozarbayjon.png";
 import Bagama from "./image/Bagama.png";
-import Beliz from "./image/Beliz.jpg";
+import Bahrayn from "./image/Bahrain.png";
+import Bangladesh from "./image/Bangladesh.png";
 import Barbados from "./image/Barbados.png";
+import Belarus from "./image/Belarus.png";
+import Belgiya from "./image/Belgium.png";
+import Beliz from "./image/Beliz.jpg";
 import Benin from "./image/Benin.png";
-import Bolgariya from "./image/Bolgariya.png";
+import Butan from "./image/Butan.png";
 import Boliviya from "./image/Boliviya.png";
 import Bosniya from "./image/Bosniya.png";
-import Butan from "./image/Butan.png";
-import Vanuatu from "./image/Vanuatu.png";
-import Vatikan from "./image/Vatikan.jpg";
-import Vengriya from "./image/Vengriya.png";
-import Vyetnam from "./image/Vyetnam.webp";
-import Gaiti from "./image/Gaiti.png";
-import Gayana from "./image/Gayana.jpg";
-import Gambiya from "./image/Gambiya.png";
-import GvineyaBisau from "./image/GvineyaBisau.jpg";
-import Gonduras from "./image/Gonduras.png";
-import Grenada from "./image/Grenada.png";
-import Gruziya from "./image/Gruziya.webp";
-import Dominika from "./image/Dominika.jpg";
-import JanubiySudan from "./image/JanubiySudan.webp";
-import Iroq from "./image/Iroq.png";
-import Islandiya from "./image/Islandiya.png";
+import Botsvana from "./image/Botswana.png";
+import Braziliya from "./image/Brazil.png";
+import Bruney from "./image/Bruney.png";
+import Bolgariya from "./image/Bolgariya.png";
+import BurkinaF from "./image/BurkinaF.png";
+import Burundi from "./image/Burundi.webp";
 import KaboVerde from "./image/Kabo-Verde.png";
 import Kambodja from "./image/Kambodja.png";
-import Kipr from "./image/Kipr.png";
-import Kiribati from "./image/Kiribati.png";
+import Kamerun from "./image/Cameroon.png";
+import Kanada from "./image/canada.png";
+import MarkaziyF from "./image/Mar.webp";
+import Chad from "./image/Chad.png";
+import Chili from "./image/Chile.png";
+import Xitoy from "./image/China.png";
+import Kolumbiya from "./image/Colombia.avif";
 import Komor from "./image/Komor.jpg";
 import Kongo from "./image/Kongo.webp";
 import Kongo2 from "./image/Kongo2.png";
-import KotdIvuar from "./image/KotdIvuar.png";
+import KostaR from "./image/CostaR.webp";
+import Xorvatiya from "./image/Croatia.png";
+import Kuba from "./image/Cuba.webp";
+import Kipr from "./image/Kipr.png";
+import Chexiya from "./image/Chexiya.png";
+import Daniya from "./image/Denmark.png";
+import Jibuti from "./image/Djibouti.webp";
+import Dominika from "./image/Dominika.jpg";
+import DominikanR from "./image/Dominikan Respublikasi.png";
+import SharqT from "./image/Sharqiy Timor.jpeg";
+import Ekvador from "./image/Ecuador.png";
+import Misr from "./image/Egypt.jpg";
+import Salvador from "./image/ElSalvador.png";
+import EkvatorialG from "./image/Ekvatorial Gvineya.png";
+import Eritreya from "./image/Eritreya.png";
+import Estoniya from "./image/Estoniya.webp";
+import Esvatini from "./image/Esvatini.png";
+import Efiopiya from "./image/Ethiopia.png";
+import Fiji from "./image/Fiji.jpg";
+import Finlandiya from "./image/Finland.png";
+import Fransiya from "./image/fransiya.png";
+import Gabon from "./image/Gabon.jpg";
+import Gambiya from "./image/Gambiya.png";
+import Zimbabve from "./image/zimbabwe.png";
+import ger from "./image/ger.png";
+import Gana from "./image/Ghana.png";
+import Gretsiya from './image/Gretsiya.webp'
+import Grenada from "./image/Grenada.png";
+import Gvatemala from "./image/Guatemala.webp";
+import Gvineya from "./image/Gvineya.png";
+import GvineyaB from "./image/GvineyaBisau.jpg";
+import Gayana from "./image/Gayana.jpg";
+import Gaiti from "./image/Gaiti.png";
+import Gonduras from "./image/Gonduras.png";
+import Vengriya from "./image/Vengriya.png";
+import Islandiya from "./image/Islandiya.png";
+import Hindiston from "./image/India.png";
+import Indoneziya from "./image/Indonesia.png";
+import Eron from "./image/Eron.png";
+import Iroq from "./image/Iroq.png";
+import Irlandiya from './image/Irelandiya.jpg'
+import Isroil from "./image/Israel.png";
+import Italiya from "./image/Italy.png";
+import Yamayka from "./image/Yamayka.png";
+import Yaponiya from "./image/Japan.png";
+import Urdun from "./image/urdun.png"
+import Qozogiston from "./image/Kazakhstan.png";
+import Keniya from "./image/Kenya.png";
+import Kiribati from "./image/Kiribati.png";
+import SouthK from "./image/SouthKorea.jpg";
+import Kosovo from "./image/Kosovo.webp"
+import Qirgiziston from "./image/download.png";
+import Latviya from "./image/Latvia.png";
+import Livan from "./image/Lebanon.png";
+import Lesoto from "./image/Lesotho.png";
 import Liberiya from "./image/Liberiya.webp";
 import Liviya from "./image/Liviya.png";
 import Lixtenshteyn from "./image/Lixtenshteyn.png";
-import Mavrikiy from "./image/Mavrikiy.jpg";
-import Mavritaniya from "./image/Mavritaniya.png";
+import Litva from "./image/Lithuania.png";
+import Lyuksemburg from "./image/Luxembourg.png";
 import Madagaskar from "./image/Madagaskar.jpg";
+import Malavi from "./image/Malawi.webp";
+import Malayziya from "./image/Malaysia.png";
 import Maldiv from "./image/Maldiv.png";
+import Mali from "./image/Mali.webp";
 import Malta from "./image/Malta.png";
-import MAR from "./image/Mar.webp";
-import Mozambik from "./image/Mozambik.svg";
-import Moldaviya from "./image/Moldaviya.png";
+import Marshall from "./image/Marshall.png"
+import Mavritaniya from "./image/Mavritaniya.png";
+import Mavrikiy from "./image/Mavrikiy.jpg";
+import Meksika from "./image/Mexico.jpg";
+import Mikroneziya from "./image/Mikroneziya Federativ Shtatlar.png";
+import Moldova from "./image/Moldova.webp";
 import Monako from "./image/Monako.png";
+import Mongoliya from "./image/Mongoliya.png"
+import Chernogoriya from "./image/Chernogoriya.png";
+import Marokash from "./image/Morocco.jpg";
+import Mozambik from "./image/Mozambik.svg";
+import Myanma from "./image/Myanmar.jpg";
 import Namibiya from "./image/Namibiya.png";
 import Nauru from "./image/Nauru.webp";
 import Nepal from "./image/Nepal.webp";
-import Niger from "./image/Niger.png";
+import Niderlandiya from "./image/Netherlands.png";
+import Zelandiya from "./image/new zeland.png";
 import Nikaragua from "./image/Nikaragua.png";
-import Ozarbayjon from "./image/Ozarbayjon.png";
+import Niger from "./image/Niger.png";
+import Nigeriya from "./image/Nigeria.webp";
+import NorthK from "./image/NorthK.webp";
+import ShimoliyM from "./image/Shimoliy Makedoniya.png";
+import Norvegiya from "./image/Norway.png";
+import Oman from "./image/Oman.png";
+import Pokiston from "./image/Pakistan.png";
+import Palau from "./image/Palau.png";
+import Panama from "./image/Panama.png";
 import PYG from "./image/PYG.png";
 import Paragvay from "./image/Paragvay.webp";
+import Peru from "./image/Peru.png";
+import Filippin from "./image/Filippin.png";
+import Polsha from "./image/Poland.png";
 import Portugaliya from "./image/Portugaliya.png";
+import Quvayt from "./image/Quvayt.png";
 import Ruminiya from "./image/Ruminiya.jpg";
+import Rossiya from "./image/Russia.png";
+import Ruanda from "./image/Rwanda.png";
+import SentLyusiya from "./image/Sent-Lyusiya.webp";
+import SentKits from "./image/SentKits.webp";
+import SentVinsent from "./image/SentVinsent.png";
 import Samoa from "./image/Samoa.png";
 import SanMarino from "./image/SanMarino.png";
 import SanTome from "./image/SanTome.png";
+import SaudiA from "./image/SaudiA.png";
+import Senegal from "./image/Senegal.png";
+import Serbiya from "./image/Serbia.png";
 import Seyshell from "./image/Seyshell.png";
-import SentVinsent from "./image/SentVinsent.png";
-import SentKits from "./image/SentKits.webp";
-import SentLyusiya from "./image/Sent-Lyusiya.webp";
-import Suriya from "./image/Suriya.png";
+import SyerraLeone from "./image/Syerra-Leone.png";
+import Singapur from "./image/Singapore.webp";
 import Slovakiya from "./image/Slovakiya.png";
 import Sloveniya from "./image/Sloveniya.png";
 import Solomon from "./image/Solomon.png";
 import Somali from "./image/Somali.png";
+import JanubiyA from "./image/Africa.png.webp";
+import JanubiySudan from "./image/JanubiySudan.webp";
+import Ispaniya from "./image/Spain.png"
+import ShriLanka from "./image/Shri-Lanka.jpg";
 import Sudan from "./image/Sudan.png";
 import Surinam from "./image/Surinam.png";
-import SyerraLeone from "./image/Syerra-Leone.png";
+import Shvetsiya from "./image/swend.png";
+import Shveytsariya from "./image/swider.png";
+import Suriya from "./image/Suriya.png";
+import Tayvan from "./image/Taiwan.png"
+import Tajikistan from "./image/Tajikistan.png";
+import Tanzaniya from "./image/Tanzania.png";
 import Tailand from "./image/Tailand.png";
+import SharqTimor from "./image/Sharqiy Timor.jpeg"
 import Togo from "./image/Togo.png";
+
+
+
+
+
+
+
+
+
+
+
+import uzb from "./image/uzb.png";
+import United from "./image/United.jpg";
+import Turkiya from "./image/Turkiya.png";
+import Qatar from "./image/qatar-flag__19414.1639690374.1280.1280.webp";
+import Tonga from "./image/Tonga.png";
+import Venesuela from "./image/Venezuela.png";
+import Yaman from "./image/Yemen.png";
+import Laos from "./image/Laos.png";
+// import Qirgiziston from "./image/Qirg'iziston.jpg";
+import Turkmaniston from "./image/Turkmenistan.png";
+import Iordaniya from "./image/Jordan.png";
+import Zambiya from "./image/Zambia.webp";
+import Uganda from "./image/Uganda.webp";
+import Zambiaflag from "./image/Zambia.webp";
+import Aland from "./image/Aland.png";
+import Vanuatu from "./image/Vanuatu.png";
+import Vatikan from "./image/Vatikan.jpg";
+import Vyetnam from "./image/Vyetnam.webp";
+import Gruziya from "./image/Gruziya.webp";
+import coted from "./image/coted.png";
+import Moldaviya from "./image/Moldaviya.png";
 import TrinidadTobago from "./image/Trinidad.png";
 import Tuvalu from "./image/Tuvalu.png";
 import Tunis from "./image/Tunis.png";
 import Ukraina from "./image/Ukraina.png";
 import Urugvay from "./image/Urugvay.webp";
-import Fiji from "./image/Fiji.jpg";
-import Filippin from "./image/Filippin.png";
-import Chad from "./image/Chad.png";
-import Chernogoriya from "./image/Chernogoriya.png";
-import Chexiya from "./image/Chexiya.png";
-import ShriLanka from "./image/Shri-Lanka.jpg";
-import SharqiyTimor from "./image/Sharqiy Timor.jpeg";
-import ShimoliyM from "./image/Shimoliy Makedoniya.png";
-import EkvatorialG from "./image/Ekvatorial Gvineya.png";
-import Eritreya from "./image/Eritreya.png";
-import Eron from "./image/Eron.png";
-import Esvatini from "./image/Esvatini.png";
-import Estoniya from "./image/Estoniya.webp";
-import Yamayka from "./image/Yamayka.png";
-import Qirgiziston from "./image/download.png";
-import Quvayt from "./image/Quvayt.png";
-import Mikroneziya from "./image/Mikroneziya Federativ Shtatlar.png";
-import AntiguaB from "./image/Antigua va Barbuda.png";
 // import Afgoniston from "./image/Afgʻoniston.png";
-import DominikanR from "./image/Dominikan Respublikasi.png";
 import Koreya from "./image/Koreya Demokratik.png";
 
 export const fake_data = [
   {
     id: 1,
-    flag: uzb,
-    options: ["Uzbekiston", "Qozogʻiston", "Tojikiston"],
-    answer: "Uzbekiston",
+    flag: Afgoniston,
+    options: ["Venesuela", "Armaniston", "Afgʻoniston"],
+    answer: "Afgʻoniston",
   },
   {
     id: 2,
-    flag: ger,
-    options: ["Germaniya", "Britaniya", "Fransiya"],
-    answer: "Germaniya",
+    flag: Albaniya,
+    options: ["Xitoy", "Jazoir", "Albaniya"],
+    answer: "Albaniya",
   },
   {
     id: 3,
-    flag: swend,
-    options: ["Uzbiston", "Xitoy", "Shvetsiya"],
-    answer: "Shvetsiya",
+    flag: Jazoir,
+    options: ["Braziliya", "Ozarbayjon", "Jazoir"],
+    answer: "Jazoir",
   },
   {
     id: 4,
-    flag: swider,
-    options: ["Shveytsariya", "Italiya", "Yaponiya"],
-    answer: "Shveytsariya",
+    flag: Andorra,
+    options: ["Jibuti", "Angola", "Andorra"],
+    answer: "Andorra",
   },
   {
     id: 5,
-    flag: Netherlands,
-    options: ["Shveytsariya", "Niderlandiya", "Janubiy Koreya"],
-    answer: "Niderlandiya",
+    flag: Angola,
+    options: ["Antigua va Barbuda", "Angola", "Ekvador"],
+    answer: "Angola",
   },
   {
     id: 6,
-    flag: newZeland,
-    options: ["Avstraliya", "Yangi Zelandiya", "Daniya"],
-    answer: "Yangi Zelandiya",
+    flag: AntiguaB,
+    options: ["Fifi", "Argentina", "Antigua va Barbuda"],
+    answer: "Antigua va Barbuda",
   },
   {
     id: 7,
-    flag: Kanada,
-    options: ["Norvegiya", "Janubiy Koreya", "Kanada"],
-    answer: "Kanada",
+    flag: Argentina,
+    options: ["Argentina", "Gana", "Avstraliya"],
+    answer: "Argentina",
   },
   {
     id: 8,
-    flag: United,
-    options: ["Fransiya", "Braziliya", "Britaniya"],
-    answer: "Britaniya",
+    flag: Armaniston,
+    options: ["Hindiston", "Armaniston", "Avstriya"],
+    answer: "Armaniston",
   },
   {
     id: 9,
-    flag: Yaponiya,
-    options: ["Switzerland", "Yaponiya", "Tojikiston"],
-    answer: "Yaponiya",
-  },
-  {
-    id: 10,
     flag: Avstraliya,
-    options: ["Yangi Zelandiya", "Kirgiston", "Avstraliya"],
+    options: ["Islandiya", "Ozarbayjon", "Avstraliya"],
     answer: "Avstraliya",
   },
   {
+    id: 10,
+    flag: Avstriya,
+    options: ["Avstriya", "Bagama orollari", "Yaponiya"],
+    answer: "Avstriya",
+  },
+  {
+
+
     id: 11,
-    flag: Norvegiya,
-    options: ["Norvegiya", "Kanada", "Tojikiston"],
-    answer: "Norvegiya",
+    flag: Ozarbayjon,
+    options: ["Kenya", "Bahrayn", "Ozarbayjon"],
+    answer: "Ozarbayjon",
   },
   {
     id: 12,
-    flag: Italiya,
-    options: ["Uzbiston", "Italiya", "Rossiya"],
-    answer: "Italiya",
+    flag: Bagama,
+    options: ["Bangladesh", "Bagama orollari", "Litva"],
+    answer: "Bagama orollari",
   },
   {
     id: 13,
-    flag: Daniya,
-    options: ["Avstraliya", "Kirgiston", "Daniya"],
-    answer: "Daniya",
+    flag: Bahrayn,
+    options: ["Bahrayn", "Barbados", "Malta"],
+    answer: "Bahrayn",
   },
   {
     id: 14,
-    flag: Fransiya,
-    options: ["Fransiya", "Kanada", "Daniya"],
-    answer: "Fransiya",
+    flag: Bangladesh,
+    options: ["Nepal", "Belarus", "Bangladesh"],
+    answer: "Bangladesh",
   },
   {
     id: 15,
-    flag: Xitoy,
-    options: ["Yangi Zelandiya", "Kirgiston", "Xitoy"],
-    answer: "Xitoy",
+    flag: Barbados,
+    options: ["Belgiya", "Oman", "Barbados"],
+    answer: "Barbados",
   },
   {
     id: 16,
-    flag: SouthK,
-    options: ["Uzbiston", "Janubiy Koreya", "Shvetsiya"],
-    answer: "Janubiy Koreya",
+    flag: Belarus,
+    options: ["Belarus", "Portugaliya", "Beliz"],
+    answer: "Belarus",
   },
   {
     id: 17,
-    flag: Braziliya,
-    options: ["Rossiya", "Braziliya", "Germany"],
-    answer: "Braziliya",
+    flag: Belgiya,
+    options: ["Qatar", "Benin", "Belgiya"],
+    answer: "Belgiya",
   },
   {
     id: 18,
-    flag: Hindiston,
-    options: ["Fransiya", "Hindiston", "Italiya"],
+    flag: Beliz,
+    options: ["Butan", "Beliz", "Rossiya"],
     answer: "Hindiston",
   },
   {
@@ -308,970 +331,975 @@ export const fake_data = [
   },
   {
     id: 20,
-    flag: Afrika,
-    options: ["Janubiy Afrika", "Hindiston", "Finlandiya"],
-    answer: "Janubiy Afrika",
+    flag: Benin,
+    options: ["Shvetsiya", "Boliviya", "Benin"],
+    answer: "Benin",
   },
   {
     id: 21,
-    flag: Finlandiya,
-    options: ["Fransiya", "Finlandiya", "Germaniya"],
-    answer: "Finlandiya",
+    flag: Butan,
+    options: ["Butan", "Togo", "Bosniya va Gertsegovina"],
+    answer: "Butan",
   },
   {
     id: 22,
-    flag: Turkiya,
-    options: ["Turkiya", "Rossiya", "Shvetsiya"],
-    answer: "Turkiya",
+    flag: Boliviya,
+    options: ["Boliviya", "Botsvana", "Urugvay"],
+    answer: "Boliviya",
   },
   {
+
+
     id: 23,
-    flag: Rossiya,
-    options: ["Gretsiya", "Rossiya", "Avstraliya"],
-    answer: "Rossiya",
+    flag: Bosniya,
+    options: ["Braziliya", "Venesuela", "Bosniya va Gertsegovina"],
+    answer: "Bosniya va Gertsegovina",
   },
   {
     id: 24,
-    flag: Belgiya,
-    options: ["Belgiya", "Irlandiya", "Yaponiya"],
-    answer: "Belgiya",
+    flag: Botsvana,
+    options: ["Botsvana", "Yemen", "Bruney"],
+    answer: "Botsvana",
   },
   {
     id: 25,
-    flag: Indoneziya,
-    options: ["Meksika", "Marokash", "Indoneziya"],
-    answer: "Indoneziya",
+    flag: Braziliya,
+    options: ["Zambiya", "Braziliya", "Bruney"],
+    answer: "Braziliya",
   },
   {
     id: 26,
-    flag: Xorvatiya,
-    options: ["Fransiya", "Xorvatiya", "Braziliya"],
-    answer: "Xorvatiya",
+    flag: Bruney,
+    options: ["Bolgariya", "Bruney", "Xitoy"],
+    answer: "Bruney",
   },
   {
     id: 27,
-    flag: Polsha,
-    options: ["Kanada", "Norvegiya", "Polsha"],
-    answer: "Polsha",
+    flag: Bolgariya,
+    options: ["Burkina-Faso", "Bolgariya", "Daniya"],
+    answer: "Bolgariya",
   },
   {
+
+
     id: 28,
-    flag: Argentina,
-    options: ["Argentina", "Bahrayn", "Daniya"],
-    answer: "Argentina",
+    flag: BurkinaF,
+    options: ["Burundi", "Ekvador", "Burkina-Faso"],
+    answer: "Burkina-Faso",
   },
   {
     id: 29,
-    flag: Kolumbiya,
-    options: ["Kolumbiya", "Avstriya", "Gretsiya"],
-    answer: "Kolumbiya",
+    flag: Burundi,
+    options: ["Burundi", "Finlandiya", "Kambodja"],
+    answer: "Burundi",
   },
   {
     id: 30,
-    flag: Qozogiston,
-    options: ["Polsha", "Irlandiya", "Qozog'iston"],
-    answer: "Qozog'iston",
+    flag: Kabo,
+    options: ["Kamerun", "Germaniya", "Kabo-Verde"],
+    answer: "Kabo-Verde",
   },
   {
     id: 31,
-    flag: Belarus,
-    options: ["Polsha", "Belarus", "Xitoy"],
-    answer: "Belarus",
+    flag: Kambodja,
+    options: ["Gonduras", "Kanada", "Kambodja"],
+    answer: "Kambodja",
   },
   {
     id: 32,
-    flag: Latviya,
-    options: ["Latviya", "Irlandiya", "Italiya"],
-    answer: "Latviya",
-  },
-  {
-    id: 33,
-    flag: Litva,
-    options: ["Latviya", "Litva", "Livan"],
-    answer: "Litva",
-  },
-  {
-    id: 34,
-    flag: Livan,
-    options: ["Livan", "Marokash", "Irlandiya"],
-    answer: "Livan",
-  },
-  {
-    id: 35,
-    flag: Serbiya,
-    options: ["Finlandiya", "Afrika", "Serbiya"],
-    answer: "Serbiya",
-  },
-  {
-    id: 36,
-    flag: Bahrayn,
-    options: ["Latviya", "Germany", "Bahrayn"],
-    answer: "Bahrayn",
-  },
-  {
-    id: 37,
     flag: Kamerun,
-    options: ["Kamerun", "Kanada", "Polsha"],
+    options: ["Kamerun", "Markaziy Afrika Respublikasi", "Irlandiya"],
     answer: "Kamerun",
   },
   {
+    id: 33,
+    flag: Kanada,
+    options: ["Chad", "Kanada", "Iordaniya"],
+    answer: "Kanada",
+  },
+  {
+    id: 34,
+    flag: MarkaziyF,
+    options: ["Chili", "Qirgʻiziston", "Markaziy Afrika Respublikasi"],
+    answer: "Markaziy Afrika Respublikasi",
+  },
+  {
+    id: 35,
+    flag: Chad,
+    options: ["Lubnan", "Chad", "Xitoy"],
+    answer: "Chad",
+  },
+  {
+    id: 36,
+    flag: Chili,
+    options: ["Chili", "Madagaskar", "Kolumbiya"],
+    answer: "Chili",
+  },
+  {
+    id: 37,
+    flag: Xitoy,
+    options: ["", "Kanada", "Xitoy"],
+    answer: "Xitoy",
+  },
+  {
     id: 38,
-    flag: Jazoir,
-    options: ["Kamerun", "Kolumbiya", "Jazoir"],
-    answer: "Jazoir",
+    flag: Kolumbiya,
+    options: ["Oman", "Komor orollari", "Kolumbiya"],
+    answer: "Kolumbiya",
   },
   {
     id: 39,
-    flag: Misr,
-    options: ["Latviya", "Misr", "Indoneziya"],
-    answer: "Misr",
+    flag: Komor,
+    options: ["Komor orollari", "Kosta-Rika", "Pokiston"],
+    answer: "Komor orollari",
   },
   {
     id: 40,
-    flag: Isroil,
-    options: ["Daniya", "Kanada", "Isroil"],
-    answer: "Isroil",
+    flag: Kongo,
+    options: ["Xorvatiya", "Kongʻo Demokratik Respublikasi", "Qatar"],
+    answer: "Kongʻo Demokratik Respublikasi",
   },
   {
     id: 41,
-    flag: Peru,
-    options: ["Peru", "Misr", "Indoneziya"],
-    answer: "Peru",
+    flag: Kongo2,
+    options: ["Kongʻo Respublikasi", "Kuba", "Rossiya"],
+    answer: "Kongʻo Respublikasi",
   },
   {
     id: 42,
-    flag: Palau,
-    options: ["Kanada", "Latviya", "Palau"],
-    answer: "Palau",
+    flag: KostaR,
+    options: ["Kipr", "Janubiy Afrika", "Kosta-Rika"],
+    answer: "Kosta-Rika",
   },
   {
     id: 43,
-    flag: Moldova,
-    options: ["Moldova", "Italiya", "Germany"],
-    answer: "Moldova",
+    flag: coted,
+    options: ["Daniya", "Kote-d'Ivoir", "Tailand"],
+    answer: "Kote-d'Ivoir",
   },
   {
     id: 44,
-    flag: Gabon,
-    options: ["Norvegiya", "Gabon", "Fransiya"],
-    answer: "Gabon",
+    flag: Xorvatiya,
+    options: ["Xorvatiya", "Urugvay", "Dominika"],
+    answer: "Xorvatiya",
   },
   {
     id: 45,
-    flag: Meksika,
-    options: ["Meksika", "Serbiya", "Belarus"],
-    answer: "Meksika",
+    flag: Kuba,
+    options: ["Vanuatu", "Kuba", "Kipr"],
+    answer: "Kuba",
   },
   {
     id: 46,
-    flag: Qatar,
-    options: ["Jazoir", "Qatar", "Italiya"],
-    answer: "Qatar",
+    flag: Kipr,
+    options: ["Kipr", "Gʻarbiy Sahro", "Chexiya Respublikasi"],
+    answer: "Kipr",
   },
   {
+
     id: 47,
-    flag: Oman,
-    options: ["Oman", "Italiya", "Germany"],
-    answer: "Oman",
+    flag: Chexiya,
+    options: ["Chexiya Respublikasi", "Yemen", "Daniya"],
+    answer: "Chexiya Respublikasi",
   },
   {
     id: 48,
-    flag: Pokiston,
-    options: ["Latviya", "Pokiston", "Hindiston"],
-    answer: "Pokiston",
+    flag: Daniya,
+    options: ["Jibuta", "Zimbabve", "Daniya"],
+    answer: "Daniya",
   },
   {
     id: 49,
-    flag: Malayziya,
-    options: ["Malayziya", "Norvegiya", "Indoneziya"],
-    answer: "Malayziya",
+    flag: Jibuti,
+    options: ["Dominikana Respublikasi", "Jibuti", "Eritreya"],
+    answer: "Jibuti",
   },
   {
     id: 50,
-    flag: Tonga,
-    options: ["Tonga", "Thailand", "Mongolia"],
-    answer: "Tonga",
+    flag: Dominika,
+    options: ["Fifi", "Dominika", "Ekvador"],
+    answer: "Dominika",
   },
   {
     id: 51,
-    flag: NorthK,
-    options: ["Uzbekistan", "Shimoliy Koreya", "Mo'g'uliston"],
-    answer: "Shimoliy Koreya",
+    flag: DominikanR,
+    options: ["Dominikan Respublikasi", "Sharq Timor", "Gambiya"],
+    answer: "Dominikan Respublikasi",
   },
   {
     id: 52,
-    flag: Venesuela,
-    options: ["Norvegiya", "Hindiston", "Venesuela"],
-    answer: "Venesuela",
+    flag: SharqT,
+    options: ["Misr", "Gonduras", "Sharq Timor"],
+    answer: "Sharq Timor",
   },
   {
     id: 53,
     flag: Ekvador,
-    options: ["Ekvador", "Kanada", "Xitoy"],
+    options: ["Ekvador", "Irlandiya", "Salvador"],
     answer: "Ekvador",
   },
   {
     id: 54,
-    flag: Chili,
-    options: ["Misr", "Chili", "Bahrayn"],
-    answer: "Chili",
+    flag: Misr,
+    options: ["Estoniya", "Misr", "Yaponiya"],
+    answer: "Misr",
   },
   {
     id: 55,
-    flag: Gvatemala,
-    options: ["Isroil", "Gabon", "Gvatemala"],
-    answer: "Gvatemala",
+    flag: Salvador,
+    options: ["Kenya", "Ekvatorial Gvineya", "Salvador"],
+    answer: "Salvador",
   },
   {
     id: 56,
-    flag: Kuba,
-    options: ["Peru", "Kuba", "Kamerun"],
-    answer: "Kuba",
+    flag: EkvatorialG,
+    options: ["Litva", "Ekvatorial Gvineya", "Eritreya"],
+    answer: "Ekvatorial Gvineya",
   },
   {
     id: 57,
-    flag: Panama,
-    options: ["Serbiya", "Palau", "Panama"],
-    answer: "Panama",
+    flag: Eritreya,
+    options: ["Eritreya", "Estoniya", "Malta"],
+    answer: "Eritreya",
   },
   {
     id: 58,
-    flag: CostaR,
-    options: ["Kosta-Rika", "Uzbekistan", "Yaponiya"],
-    answer: "Kosta-Rika",
+    flag: Estoniya,
+    options: ["Esvatini", "Estoniya", "Norvegiya"],
+    answer: "Estoniya",
   },
   {
     id: 59,
-    flag: ElSalvador,
-    options: ["Germaniya", "El Salvador", "Chili"],
-    answer: "El Salvador",
+    flag: Esvatini,
+    options: ["Efiopiya", "Peru", "Esvatini"],
+    answer: "Esvatini",
   },
   {
     id: 60,
-    flag: Yaman,
-    options: ["Yaman", "Venesuela", "Kuba"],
-    answer: "Yaman",
-  },
-  {
-    id: 61,
-    flag: Bangladesh,
-    options: ["Italiya", "Peru", "Bangladesh"],
-    answer: "Bangladesh",
-  },
-  {
-    id: 62,
-    flag: Lyuksemburg,
-    options: ["Lyuksemburg", "Malayziya", "Jazoir"],
-    answer: "Lyuksemburg",
-  },
-  {
-    id: 63,
-    flag: Singapur,
-    options: ["Kosta-Rika", "Singapur", "Panama"],
-    answer: "Singapur",
-  },
-  {
-    id: 64,
-    flag: Brunei,
-    options: ["Bruney Darussalom", "Kamerun", "Kolumbiya"],
-    answer: "Bruney Darussalom",
-  },
-  {
-    id: 65,
-    flag: Myanma,
-    options: ["Afrika", "Palau", "Myanma"],
-    answer: "Myanma",
-  },
-  {
-    id: 66,
-    flag: Laos,
-    options: ["Venesuela", "Laos", "Xorvatiya"],
-    answer: "Laos",
-  },
-  {
-    id: 67,
-    flag: Qirgiziston,
-    options: ["Yaman", "Palau", "Qirg'iziston"],
-    answer: "Qirg'iziston",
-  },
-  {
-    id: 68,
-    flag: Turkmaniston,
-    options: ["Turkmaniston", "AQSH", "Israil"],
-    answer: "Turkmaniston",
-  },
-  {
-    id: 69,
-    flag: Tajikistan,
-    options: ["Bangladesh", "Singapur", "Tajikistan"],
-    answer: "Tajikistan",
-  },
-  {
-    id: 70,
-    flag: SaudiA,
-    options: ["Kanada", "Saudiya Arabistoni", "Panama"],
-    answer: "Saudiya Arabistoni",
-  },
-  {
-    id: 71,
-    flag: Iordaniya,
-    options: ["Daniya", "Indoneziya", "Iordaniya"],
-    answer: "Iordaniya",
-  },
-  {
-    id: 72,
     flag: Efiopiya,
-    options: ["Polsha", "Efiopiya", "Chili"],
+    options: ["Yaman", "Efiopiya", "Kuba"],
     answer: "Efiopiya",
   },
   {
-    id: 73,
-    flag: Nigeriya,
-    options: ["Tonga", "Nigeriya", "Fransiya"],
-    answer: "Nigeriya",
+    id: 61,
+    flag: Fiji,
+    options: ["Finlandiya", "Ruanda", "Fidji"],
+    answer: "Fidji",
   },
   {
-    id: 74,
-    flag: Jibuti,
-    options: ["Gabon", "Malayziya", "Jibuti"],
-    answer: "Jibuti",
+    id: 62,
+    flag: Finlandiya,
+    options: ["Fransiya", "Seyshel orollari", "Finlandiya"],
+    answer: "Finlandiya",
   },
   {
-    id: 75,
-    flag: Keniya,
-    options: ["Keniya", "Ekvador", "Oman"],
-    answer: "Keniya",
+    id: 63,
+    flag: Fransiya,
+    options: ["Fransiya", "Gabon", " Trinidad va Tobago"],
+    answer: "Fransiya",
   },
   {
-    id: 76,
+    id: 64,
+    flag: Gabon,
+    options: ["Gabon", "Ukraina", "Gambiya"],
+    answer: "Gabon",
+  },
+  {
+    id: 65,
+    flag: Gambiya,
+    options: ["Gruziya", "Gambiya", "Vanuatu"],
+    answer: "Gambiya",
+  },
+  {
+    id: 66,
+    flag: Gruziya,
+    options: ["Germaniya", "Zimbabve", "Gruziya"],
+    answer: "Gruziya",
+  },
+  {
+    id: 67,
+    flag: Germaniya,
+    options: ["Gana", "Germaniya", "Albaniya"],
+    answer: "Germaniya",
+  },
+  {
+    id: 68,
     flag: Gana,
-    options: ["Gana", "Jibuti", "Bangladesh"],
+    options: ["Bagama orollari", "Gretsiya", "Gana"],
     answer: "Gana",
   },
   {
-    id: 77,
-    flag: BurkinaF,
-    options: ["Mali", "Germaniya", "Burkina-Faso"],
-    answer: "Burkina-Faso",
+    id: 69,
+    flag: Gretsiya,
+    options: ["Gretsiya", "Grenada", "Kamerun"],
+    answer: "Gretsiya",
   },
   {
-    id: 78,
-    flag: Mali,
-    options: ["Gana", "Nigera", "Mali"],
-    answer: "Mali",
+    id: 70,
+    flag: Grenada,
+    options: ["Grenada", "Vengriya", "Gvatemala"],
+    answer: "Grenada",
   },
   {
-    id: 79,
+    id: 71,
+    flag: Gvatemala,
+    options: ["Hindiston", "Gvatemala", "Gayana"],
+    answer: "Gvatemala",
+  },
+  {
+    id: 72,
     flag: Gvineya,
-    options: ["Iordaniya", "Malayziya", "Gvineya"],
+    options: ["Yamaika", "Gvineya-Bisau", "Gvineya"],
     answer: "Gvineya",
   },
   {
+    id: 73,
+    flag: GvineyaB,
+    options: ["Gvineya-Bisau", "Kosovo", "Gaiti"],
+    answer: "Gvineya-Bisau",
+  },
+  {
+    id: 74,
+    flag: Gayana,
+    options: ["Laos", "Gonduras", "Gayana"],
+    answer: "Gayana",
+  },
+  {
+    id: 75,
+    flag: Gaiti,
+    options: ["Maldiv orollari", "Gonduras", "Gaiti"],
+    answer: "Gaiti",
+  },
+  {
+    id: 76,
+    flag: Gonduras,
+    options: ["Gonduras", "Nepal", "Vengriya"],
+    answer: "Gonduras",
+  },
+  {
+    id: 77,
+    flag: Vengriya,
+    options: ["Islandiya", "Vengriya", "Oman"],
+    answer: "Vengriya",
+  },
+  {
+    id: 78,
+    flag: Islandiya,
+    options: ["Islandiya", "Panama", "Hindiston"],
+    answer: "Islandiya",
+  },
+  {
+    id: 79,
+    flag: Hindiston,
+    options: ["Indoneziya", "Qatar", "Hindiston"],
+    answer: "Hindiston",
+  },
+  {
     id: 80,
-    flag: Senegal,
-    options: ["Laos", "Keniya", "Senegal"],
-    answer: "Senegal",
+    flag: Indoneziya,
+    options: ["Indoneziya", "Rossiya", "Eron"],
+    answer: "Indoneziya",
   },
   {
     id: 81,
-    flag: Lesoto,
-    options: ["Lesoto", "Nigeriya", "Britaniya"],
-    answer: "Lesoto",
+    flag: Eron,
+    options: ["Irak", "Saudiy Arabistoni", "Eron"],
+    answer: "Eron",
   },
   {
     id: 82,
-    flag: Botsvana,
-    options: ["Meksika", "Xitoy", "Botsvana"],
-    answer: "Botsvana",
+    flag: Iroq,
+    options: ["Iroq", "Turkiya", "Irlandiya"],
+    answer: "Iroq",
   },
   {
     id: 83,
-    flag: Zimbabve,
-    options: ["Qatar", "Zimbabve", "Braziliya"],
-    answer: "Zimbabve",
+    flag: Irlandiya,
+    options: ["Urugvay", "Isroil", "Irlandiya"],
+    answer: "Irlandiya",
   },
   {
     id: 84,
-    flag: Zambiaflag,
-    options: ["Zambiya", "Afrika", "Marokash"],
-    answer: "Zambiya",
+    flag: Isroil,
+    options: ["Isroil", "Afrika", "Italiya"],
+    answer: "Isroil",
   },
   {
     id: 85,
-    flag: Malavi,
-    options: ["Malavi", "Panama", "Efiopiya"],
-    answer: "Malavi",
+    flag: Italiya,
+    options: ["Zambiya", "Yamaika", "Italiya"],
+    answer: "Italiya",
   },
   {
     id: 86,
-    flag: Burundi,
-    options: ["Efiopiya", "Panama", "Burundi"],
-    answer: "Burundi",
+    flag: Yamayka,
+    options: ["Argentina", "Yamayka", "Yaponiya"],
+    answer: "Yamayka",
   },
   {
     id: 87,
-    flag: Ruanda,
-    options: ["Gana", "Ruanda", "Senegal"],
-    answer: "Ruanda",
+    flag: Yaponiya,
+    options: ["Belarus", "Urdun", "Yaponiya"],
+    answer: "Yaponiya",
   },
   {
     id: 88,
-    flag: Uganda,
-    options: ["Yaman", "Uganda", "El Salvador"],
-    answer: "Uganda",
+    flag: Urdun,
+    options: ["Urdun", "Kongʻo Respublikasi", "Qozogʻiston"],
+    answer: "Urdun",
   },
   {
     id: 89,
-    flag: Tanzaniya,
-    options: ["Tanzaniya", "Keniya", "Senegal"],
-    answer: "Tanzaniya",
+    flag: Qozogiston,
+    options: ["Luksemburg", "Qozogʻiston", "Kenya"],
+    answer: "Qozogʻiston",
   },
   {
     id: 90,
-    flag: Afgoniston,
-    options: ["Gvineya", "Afg'oniston", "Jibuti"],
-    answer: "Afg'oniston",
+    flag: Keniya,
+    options: ["Keniya", "Mavritaniya", "Kiribati"],
+    answer: "Keniya",
   },
   {
     id: 91,
-    flag: Aland,
-    options: ["Gvineya", "Afg'oniston", "Åland"],
-    answer: "Åland",
+    flag: Kiribati,
+    options: ["Kiribati", "Shimoliy Makedoniya", "Nigeriya"],
+    answer: "Kiribati",
   },
   {
     id: 92,
-    flag: Albaniya,
-    options: ["Albaniya", "Afg'oniston", "Jibuti"],
-    answer: "Albaniya",
+    flag: NorthK,
+    options: ["Shimoliy Koreya", "Janubiy Koreya", "Polsha"],
+    answer: "Shimoliy Koreya",
   },
-  // {
-  //   id: 93,
-  //   flag:,
-  //   options: ["Bahrayn", "Belarus", "Amerika Samoasi"],
-  //   answer: "Amerika Samoasi",
-  // },
+  {
+    id: 93,
+    flag: SouthK,
+    options: ["Chexiya Respublikasi", "Kosovo", "Janubiy Koreya"],
+    answer: "Janubiy Koreya",
+  },
   {
     id: 94,
-    flag: Andorra,
-    options: ["Andorra", "Belarus", "Ruanda"],
-    answer: "Andorra",
+    flag: Kosovo,
+    options: ["Sent-Lyusiya", "Kosovo", "Quvayt"],
+    answer: "Kosovo",
   },
 
   {
     id: 95,
-    flag: Angola,
-    options: ["Bahrayn", "Angola", "Uganda"],
-    answer: "Angola",
+    flag: Quvayt,
+    options: ["Qirgʻiziston", "Quvayt", "Sharq Timor"],
+    answer: "Quvayt",
   },
   {
     id: 96,
-    flag: Armaniston,
-    options: ["Malavi", "Belarus", "Armaniston"],
-    answer: "Armaniston",
+    flag: Qirgiziston,
+    options: ["Kolumbiya", "Loys", "Qirgʻiziston"],
+    answer: "Qirgʻiziston",
   },
   {
     id: 97,
-    flag: Bagama,
-    options: ["Bagama", "Polsha", "Negeriya"],
-    answer: "Bagama",
+    flag: Latviya,
+    options: ["Latviya", "Kipr", "Lubnan"],
+    answer: "Latviya",
   },
   {
     id: 98,
-    flag: Barbados,
-    options: ["Chili", "Zambiya", "Barbados"],
-    answer: "Barbados",
+    flag: Livan,
+    options: ["Lesoto", "Birlashgan Arab Amirliklari", "Livan"],
+    answer: "Livan",
   },
   {
     id: 99,
-    flag: Beliz,
-    options: ["Laos", "Yaman", "Beliz"],
-    answer: "Beliz",
+    flag: Lesoto,
+    options: ["Lesoto", "Shveytsariya", "Liberiya"],
+    answer: "Lesoto",
   },
   {
     id: 100,
-    flag: Benin,
-    options: ["Benin", "Albaniya", "Negeriya"],
-    answer: "Benin",
-  },
-  {
-    id: 101,
-    flag: Bolgariya,
-    options: ["Ruanda", "Bolgariya", "Zimbabve"],
-    answer: "Bolgariya",
-  },
-  {
-    id: 102,
-    flag: Boliviya,
-    options: ["Mali", "Gana", "Boliviya"],
-    answer: "Boliviya",
-  },
-  {
-    id: 103,
-    flag: Bosniya,
-    options: ["Benin", "Bosniya va Gertsegovina", "Negeriya"],
-    answer: "Bosniya va Gertsegovina",
-  },
-  {
-    id: 104,
-    flag: Butan,
-    options: ["Butan", "Beliz", "Bolgariya"],
-    answer: "Butan",
-  },
-  {
-    id: 105,
-    flag: Vanuatu,
-    options: ["Aland", "Lesoto", "Vanuatu"],
-    answer: "Vanuatu",
-  },
-  {
-    id: 106,
-    flag: Vatikan,
-    options: ["Vatikan", "Andorra", "Bagama"],
-    answer: "Vatikan",
-  },
-  {
-    id: 107,
-    flag: Vengriya,
-    options: ["Senegal", "Vengriya", "Gvineya"],
-    answer: "Vengriya",
-  },
-  {
-    id: 108,
-    flag: Vyetnam,
-    options: ["Polsha", "Vyetnam", "Tonga"],
-    answer: "Vyetnam",
-  },
-  {
-    id: 109,
-    flag: Gaiti,
-    options: ["Daniya", "Angola", "Gaiti"],
-    answer: "Gaiti",
-  },
-  {
-    id: 110,
-    flag: Gayana,
-    options: ["Armaniston", "Gayana", "Negeriya"],
-    answer: "Gayana",
-  },
-  {
-    id: 111,
-    flag: Gambiya,
-    options: ["Gambiya", "Albaniya", "Myanma"],
-    answer: "Gambiya",
-  },
-  {
-    id: 112,
-    flag: GvineyaBisau,
-    options: ["Gvineya-Bisau", "Finlandiya", "Negeriya"],
-    answer: "Gvineya-Bisau",
-  },
-  {
-    id: 113,
-    flag: Gonduras,
-    options: ["Angola", "Albaniya", "Gonduras"],
-    answer: "Gonduras",
-  },
-  {
-    id: 114,
-    flag: Grenada,
-    options: ["Grenada", "Aland", "Bagama"],
-    answer: "Grenada",
-  },
-  {
-    id: 115,
-    flag: Gruziya,
-    options: ["Belgiya", "Marokash", "Gruziya"],
-    answer: "Gruziya",
-  },
-  {
-    id: 116,
-    flag: Dominika,
-    options: ["Dominika", "Benin", "Misr"],
-    answer: "Dominika",
-  },
-  {
-    id: 117,
-    flag: JanubiySudan,
-    options: ["Kamerun", "Janubiy Sudan", "Bahrayn"],
-    answer: "Janubiy Sudan",
-  },
-  {
-    id: 118,
-    flag: Iroq,
-    options: ["Belgiya", "Iroq", "Egiopiya"],
-    answer: "Iroq",
-  },
-  {
-    id: 119,
-    flag: Islandiya,
-    options: ["Islandiya", "Iroq", "Hindiston"],
-    answer: "Islandiya",
-  },
-  {
-    id: 120,
-    flag: KaboVerde,
-    options: ["Kabo-Verde", "Polsha", "Gambiya"],
-    answer: "Kabo-Verde",
-  },
-  {
-    id: 121,
-    flag: Kambodja,
-    options: ["Germaniya", "Polsha", "Kambodja"],
-    answer: "Kambodja",
-  },
-  {
-    id: 122,
-    flag: Kipr,
-    options: ["Negeriya", "Kipr", "Gana"],
-    answer: "Kipr",
-  },
-  {
-    id: 123,
-    flag: Kiribati,
-    options: ["Vatikan", "Gambiya", "Kiribati"],
-    answer: "Kiribati",
-  },
-  {
-    id: 124,
-    flag: Komor,
-    options: ["Komor", "Bosniya", "Bolgariya"],
-    answer: "Komor",
-  },
-  {
-    id: 125,
-    flag: Kongo,
-    options: ["Kongo Demokratik", "Gonduras", "Dominiki"],
-    answer: "Kongo Demokratik",
-  },
-  {
-    id: 126,
-    flag: Kongo2,
-    options: ["Kongo", "Iroq", "Gruziya"],
-    answer: "Kongo",
-  },
-  {
-    id: 127,
-    flag: KotdIvuar,
-    options: ["Kongo", "Islandiya", "Kot-d'Ivuar"],
-    answer: "Kot-d'Ivuar",
-  },
-  {
-    id: 128,
     flag: Liberiya,
-    options: ["Liberiya", "Angola", "Beliz"],
+    options: ["Chad", "Liberiya", "Liviya"],
     answer: "Liberiya",
   },
   {
-    id: 129,
+    id: 101,
     flag: Liviya,
-    options: ["Kanada", "Litva", "Liviya"],
+    options: ["Liviya", "Lixtenshteyn", "Chernogoriya"],
     answer: "Liviya",
   },
   {
-    id: 130,
+    id: 102,
     flag: Lixtenshteyn,
-    options: ["Marokash", "Lixtenshteyn", "Afrika"],
+    options: ["Litva", "Slovakya", "Lixtenshteyn"],
     answer: "Lixtenshteyn",
   },
   {
-    id: 131,
-    flag: Mavrikiy,
-    options: ["Yaman", "Iroq", "Mavrikiy"],
-    answer: "Mavrikiy",
+    id: 103,
+    flag: Litva,
+    options: ["Kuba", "Lyuksemburg", "Litva"],
+    answer: "Litva",
   },
   {
-    id: 132,
-    flag: Mavritaniya,
-    options: ["Vyetnam", "Kipr", "	Mavritaniya"],
-    answer: "	Mavritaniya",
+    id: 104,
+    flag: Lyuksemburg,
+    options: ["Lyuksemburg", "Fidji", "Madagaskar"],
+    answer: "Lyuksemburg",
   },
   {
-    id: 133,
+    id: 105,
     flag: Madagaskar,
-    options: ["Madagaskar", "Afrika", "Kuba"],
+    options: ["Finlandiya", "Madagaskar", "Malavi"],
     answer: "Madagaskar",
   },
   {
-    id: 134,
+    id: 106,
+    flag: Malavi,
+    options: ["Burundi", "Malayziya", "Malavi"],
+    answer: "Malavi",
+  },
+  {
+    id: 107,
+    flag: Malayziya,
+    options: ["Malayziya", "Maldiv orollari", "Botsvana"],
+    answer: "Malayziya",
+  },
+  {
+    id: 108,
     flag: Maldiv,
-    options: ["Maldiv orollari", "Malayziya", "Tonga"],
+    options: ["Xorvatiya", "Maldiv orollari", "Mali"],
     answer: "Maldiv orollari",
   },
   {
-    id: 135,
+    id: 109,
+    flag: Mali,
+    options: ["Malta", "Kabo-Verde", "Mali"],
+    answer: "Mali",
+  },
+  {
+    id: 110,
     flag: Malta,
-    options: ["Kipr", "Komor", "Malta"],
+    options: ["Andorra", "Malta", "Marshall orollari"],
     answer: "Malta",
   },
   {
-    id: 136,
-    flag: MAR,
-    options: ["Markaziy Afrika Respublikasi", "Gaita", "Afrika"],
-    answer: "Markaziy Afrika Respublikasi",
+    id: 111,
+    flag: Marshall,
+    options: ["Jazoir", "Marshall orollari", "Mavritaniya"],
+    answer: "Marshall orollari",
   },
   {
-    id: 137,
-    flag: Mozambik,
-    options: ["Aland", "Iroq", "Mozambik"],
-    answer: "Mozambik",
+    id: 112,
+    flag: Mavritaniya,
+    options: ["Mavritaniya", "Avstriya", "Mavrikiy"],
+    answer: "Mavritaniya",
   },
   {
-    id: 138,
-    flag: Moldaviya,
-    options: ["Peru", "Moldaviya", "Gruziya"],
-    answer: "Moldaviya",
+    id: 113,
+    flag: Mavrikiy,
+    options: ["Ekvador", "Mavrikiy", "Meksika"],
+    answer: "Mavrikiy",
   },
   {
-    id: 139,
+    id: 114,
+    flag: Meksika,
+    options: ["Kamerun", "Mikroneziya", "Meksika"],
+    answer: "Meksika",
+  },
+  {
+    id: 115,
+    flag: Mikroneziya,
+    options: ["Mikroneziya", "Gruziya", "Moldova"],
+    answer: "Mikroneziya",
+  },
+  {
+    id: 116,
+    flag: Moldova,
+    options: ["Bagama orollari", "Moldova", "Monako"],
+    answer: "Moldova",
+  },
+  {
+    id: 117,
     flag: Monako,
-    options: ["Monako", "Kongo", "Kipr"],
+    options: ["Angola", "Monako", "Mongoliya"],
     answer: "Monako",
   },
   {
-    id: 140,
-    flag: Namibiya,
-    options: ["Namibiya", "Islandiya", "Benin"],
-    answer: "Namibiya",
+    id: 118,
+    flag: Mongoliya,
+    options: ["Bruney", "Mongoliya", "Chernogoriya"],
+    answer: "Mongoliya",
   },
   {
-    id: 141,
-    flag: Nauru,
-    options: ["Liviya", "Nauru", "Maldiv"],
-    answer: "Nauru",
-  },
-  {
-    id: 142,
-    flag: Nepal,
-    options: ["Norvegiya", "Netherlands", "Nepal"],
-    answer: "Nepal",
-  },
-  {
-    id: 143,
-    flag: Niger,
-    options: ["Nauru", "Jibuti", "Niger"],
-    answer: "Niger",
-  },
-  {
-    id: 144,
-    flag: Nikaragua,
-    options: ["Liviya", "Nikaragua", "Mozambik"],
-    answer: "Nikaragua",
-  },
-  {
-    id: 145,
-    flag: Ozarbayjon,
-    options: ["Ozarbayjon", "Isroil", "Pokiston"],
-    answer: "Ozarbayjon",
-  },
-  {
-    id: 146,
-    flag: PYG,
-    options: ["Yangi Zenlandiya", "Papua Yangi Gvineya", "Kanada"],
-    answer: "Papua Yangi Gvineya",
-  },
-  {
-    id: 147,
-    flag: Paragvay,
-    options: ["Madagaskar", "Liberiya", "Paragvay"],
-    answer: "Paragvay",
-  },
-  {
-    id: 148,
-    flag: Portugaliya,
-    options: ["Portugaliya", "Argentina", "Brazilya"],
-    answer: "Portugaliya",
-  },
-  {
-    id: 149,
-    flag: Ruminiya,
-    options: ["Daniya", "Ruminiya", "Norvegiya"],
-    answer: "Ruminiya",
-  },
-  {
-    id: 150,
-    flag: Samoa,
-    options: ["Niderlandiya", "Samoa", "Shivetsiya"],
-    answer: "Samoa",
-  },
-  {
-    id: 151,
-    flag: SanMarino,
-    options: ["Monako", "Malta", "San-Marino"],
-    answer: "San-Marino",
-  },
-  {
-    id: 152,
-    flag: SanTome,
-    options: ["	San-Tome", "Indoneziya", "Niderlandiya"],
-    answer: "	San-Tome",
-  },
-  {
-    id: 153,
-    flag: Seyshell,
-    options: ["Iordaniya", "Isroil", "Seyshell"],
-    answer: "Seyshell",
-  },
-  {
-    id: 154,
-    flag: SentVinsent,
-    options: ["Sent-Vinsent", "Marokash", "Indoneziya"],
-    answer: "Sent-Vinsent",
-  },
-  {
-    id: 155,
-    flag: SentKits,
-    options: ["Sent-Vinsent", "Kamerun", "Sent-Kits"],
-    answer: "Sent-Kits",
-  },
-  {
-    id: 156,
-    flag: SentLyusiya,
-    options: ["Livan", "Marokash", "Sent-Lyusiya"],
-    answer: "Sent-Lyusiya",
-  },
-  {
-    id: 157,
-    flag: Suriya,
-    options: ["Isroil", "Pokiston", "Suriya"],
-    answer: "Suriya",
-  },
-  {
-    id: 158,
-    flag: Slovakiya,
-    options: ["Samoa", "Niger", "Slovakiya"],
-    answer: "Slovakiya",
-  },
-  {
-    id: 159,
-    flag: Sloveniya,
-    options: ["Sloveniya", "Ozarbayjon", "Paragvay"],
-    answer: "Sloveniya",
-  },
-  {
-    id: 160,
-    flag: Solomon,
-    options: ["Ruminaya", "Nikaragua", "Solomon"],
-    answer: "Solomon",
-  },
-  {
-    id: 161,
-    flag: Somali,
-    options: ["Grenada", "Somali", "Dominika"],
-    answer: "Somali",
-  },
-  {
-    id: 162,
-    flag: Sudan,
-    options: ["Sudan", "Gruziya", "Niger"],
-    answer: "Sudan",
-  },
-  {
-    id: 163,
-    flag: Surinam,
-    options: ["Gretsiya", "Niderlandiya", "Surinam"],
-    answer: "Surinam",
-  },
-  {
-    id: 164,
-    flag: SyerraLeone,
-    options: ["Shevetsiya", "Paragvay", "Syerra-Leone"],
-    answer: "Syerra-Leone",
-  },
-  {
-    id: 165,
-    flag: Tailand,
-    options: ["Tailand", "Nikaragua", "Samoa"],
-    answer: "Tailand",
-  },
-  {
-    id: 166,
-    flag: Togo,
-    options: ["Aland", "Ruanda", "Gvineya"],
-    answer: "Togo",
-  },
-  {
-    id: 167,
-    flag: TrinidadTobago,
-    options: ["Nauru", "Monako", "Trinidad va Tobago"],
-    answer: "Trinidad va Tobago",
-  },
-  {
-    id: 168,
-    flag: Tuvalu,
-    options: ["Suriya", "Slovakiya", "Tuvalu"],
-    answer: "Tuvalu",
-  },
-  {
-    id: 169,
-    flag: Tunis,
-    options: ["Tunis", "Mavritaniya", "Nepal"],
-    answer: "Tunis",
-  },
-  {
-    id: 170,
-    flag: Ukraina,
-    options: ["Ukraina", "Rossiya", "Germaniya"],
-    answer: "Ukraina",
-  },
-  {
-    id: 171,
-    flag: Urugvay,
-    options: ["Urugvay", "Nikaragua", "Ozarbayjon"],
-    answer: "Urugvay",
-  },
-  {
-    id: 172,
-    flag: Fiji,
-    options: ["Ruminaya", "Solomon", "Fiji"],
-    answer: "Fiji",
-  },
-  {
-    id: 173,
-    flag: Filippin,
-    options: ["Filippin", "Kipr", "Vengriya"],
-    answer: "Filippin",
-  },
-  {
-    id: 174,
-    flag: Chad,
-    options: ["Ukraina", "Slovakiya", "Chad"],
-    answer: "Chad",
-  },
-  {
-    id: 175,
+    id: 119,
     flag: Chernogoriya,
-    options: ["Chernogoriya", "Tunis", "Fiji"],
+    options: ["Marokash", "Beliz", "Chernogoriya"],
     answer: "Chernogoriya",
   },
   {
-    id: 176,
-    flag: Chexiya,
-    options: ["Sudan", "Togo", "Chexiya"],
-    answer: "Chexiya",
+    id: 120,
+    flag: Marokash,
+    options: ["Armaniston", "Marokash", "Mozambik"],
+    answer: "Marokash",
   },
   {
-    id: 177,
-    flag: ShriLanka,
-    options: ["Nepal", "Shri-Lanka", "Daniya"],
-    answer: "Shri-Lanka",
+    id: 121,
+    flag: Mozambik,
+    options: ["Mozambik", "Polsha", "Daniya"],
+    answer: "Mozambik",
   },
   {
-    id: 178,
-    flag: SharqiyTimor,
-    options: ["	Sharqiy Timor", "Urugvay", "Chexiya"],
-    answer: "	Sharqiy Timor",
+    id: 122,
+    flag: Myanma,
+    options: ["Fransiya", "Namibiya", "Myanma"],
+    answer: "Myanma",
   },
   {
-    id: 179,
+    id: 123,
+    flag: Namibiya,
+    options: ["Xorvatiya", "Nauru", "Namibiya"],
+    answer: "Namibiya",
+  },
+  {
+    id: 124,
+    flag: Nauru,
+    options: ["Gretsiya", "Nauru", "Nepal"],
+    answer: "Nauru",
+  },
+  {
+    id: 125,
+    flag: Nepal,
+    options: ["Nepal", "Gaiti", "Niderlandiya"],
+    answer: "Nepal",
+  },
+  {
+    id: 126,
+    flag: Niderlandiya,
+    options: ["Niderlandiya", "Indoneziya", "Yangi Zelandiya"],
+    answer: "Niderlandiya",
+  },
+  {
+    id: 127,
+    flag: Zelandiya,
+    options: ["Yangi Zelandiya", "Nikaragua", "Italiya"],
+    answer: "Yangi Zelandiya",
+  },
+  {
+    id: 128,
+    flag: Nikaragua,
+    options: ["Lyuksemburg", "Nikaragua", "Niger"],
+    answer: "Nikaragua",
+  },
+  {
+    id: 129,
+    flag: Niger,
+    options: ["Niger", "Butan", "Yaman"],
+    answer: "Niger",
+  },
+  {
+    id: 130,
+    flag: Nigeriya,
+    options: ["Germaniya", "Shimoliy Koreya", "Nigeriya"],
+    answer: "Nigeriya",
+  },
+  {
+    id: 131,
+    flag: NorthK,
+    options: ["Shimoliy Koreya", "Shimoliy Makedoniya", "Beliz"],
+    answer: "Shimoliy Koreya",
+  },
+  {
+    id: 132,
     flag: ShimoliyM,
-    options: ["Filippin", "Shimoliy Makedoniya", "Vengriya"],
+    options: ["Yaponiya", "Norvegiya", "Shimoliy Makedoniya"],
     answer: "Shimoliy Makedoniya",
   },
   {
+    id: 133,
+    flag: Norvegiya,
+    options: ["Jibuti", "Norvegiya", "Oman"],
+    answer: "Norvegiya",
+  },
+  {
+    id: 134,
+    flag: Oman,
+    options: ["Oman", "Pokiston", "Estoniya"],
+    answer: "Oman",
+  },
+  {
+    id: 135,
+    flag: Pokiston,
+    options: ["Qozogʻiston", "Pokiston", "Palau"],
+    answer: "Pokiston",
+  },
+  {
+    id: 136,
+    flag: Palau,
+    options: ["Qatar", "Palau", "Panama"],
+    answer: "Palau",
+  },
+  {
+    id: 137,
+    flag: Panama,
+    options: ["Panama", "Papua", "Yangi Gvineya"],
+    answer: "Panama",
+  },
+  {
+    id: 138,
+    flag: PYG,
+    options: ["Paragvay", "Gabon", "Papua Yangi Gvineya"],
+    answer: "MoldavPapua Yangi Gvineyaiya",
+  },
+  {
+    id: 139,
+    flag: Paragvay,
+    options: ["Paragvay", "Peru", "Tonga"],
+    answer: "Paragvay",
+  },
+  {
+    id: 140,
+    flag: Peru,
+    options: ["Kamerun", "Filipino", "Peru"],
+    answer: "Peru",
+  },
+  {
+    id: 141,
+    flag: Filippin,
+    options: ["Polsha", "Avstriya", "Filippin"],
+    answer: "Filippin",
+  },
+  {
+    id: 142,
+    flag: Polsha,
+    options: ["Polsha", "Malavi", "Portugaliya"],
+    answer: "Polsha",
+  },
+  {
+    id: 143,
+    flag: Portugaliya,
+    options: ["Gretsiya", "Portugaliya", "Quvayt"],
+    answer: "Portugaliya",
+  },
+  {
+    id: 144,
+    flag: Quvayt,
+    options: ["Kenya", "Ruminiya", "Quvayt"],
+    answer: "Quvayt",
+  },
+  {
+    id: 145,
+    flag: Ruminiya,
+    options: ["Ruminiya", "Rossiya", "Litva"],
+    answer: "Ruminiya",
+  },
+  {
+    id: 146,
+    flag: Rossiya,
+    options: ["Mavrikiy", "Rossiya", "Ruanda"],
+    answer: "Rossiya",
+  },
+  {
+    id: 147,
+    flag: Ruanda,
+    options: ["Kipr", "Sent-Kits va Nevis", "Ruanda"],
+    answer: "Ruanda",
+  },
+  {
+    id: 148,
+    flag: SentLyusiya,
+    options: ["Sent-Lyusiya", "Albaniya", "Sent-Vinsent va Grenadin"],
+    answer: "Sent-Lyusiya",
+  },
+  {
+    id: 149,
+    flag: SentKits,
+    options: ["Belgiya", "Sent-Lyusiya", "Sent-Kits va Nevis"],
+    answer: "Sent-Kits va Nevis",
+  },
+  {
+    id: 150,
+    flag: SentVinsent,
+    options: ["Fidji", "Sent-Vinsent va Grenadin", "Samoa"],
+    answer: "Sent-Vinsent va Grenadin",
+  },
+  {
+    id: 151,
+    flag: Samoa,
+    options: ["Samoa", "Nauru", "San-Marino"],
+    answer: "Samoa",
+  },
+  {
+    id: 152,
+    flag: SanMarino,
+    options: ["San-Marino", "Madagaskar", "Slovakya"],
+    answer: "San-Marino",
+  },
+  {
+    id: 153,
+    flag: SanTome,
+    options: ["Saudiya Arabistoni", "Sao-Tome va Prinsipi", "Singapur"],
+    answer: "Sao-Tome va Prinsipi",
+  },
+  {
+    id: 154,
+    flag: SaudiA,
+    options: ["Sloveniya", "Saudiya Arabistoni", "Senegal"],
+    answer: "Saudiya Arabistoni",
+  },
+  {
+    id: 155,
+    flag: Senegal,
+    options: ["Senegal", "Peru", "Serbiya"],
+    answer: "Senegal",
+  },
+  {
+    id: 156,
+    flag: Serbiya,
+    options: ["Seyshel orollari", "Oman", "Serbiya"],
+    answer: "Serbiya",
+  },
+  {
+    id: 157,
+    flag: Seyshell,
+    options: ["Norvegiya", "Seyshel orollari", "Syerra-Leone"],
+    answer: "Seyshel orollari",
+  },
+  {
+    id: 158,
+    flag: SyerraLeone,
+    options: ["Syerra-Leone", "Qatar", "Singapur"],
+    answer: "Syerra-Leone",
+  },
+  {
+    id: 159,
+    flag: Singapur,
+    options: ["Singapur", "Slovakya", "Latviya"],
+    answer: "Singapur",
+  },
+  {
+    id: 160,
+    flag: Slovakiya,
+    options: ["Kosovo", "Sloveniya", "Slovakya"],
+    answer: "Slovakya",
+  },
+  {
+    id: 161,
+    flag: Sloveniya,
+    options: ["Solomon orollari", "Urdun", "Sloveniya"],
+    answer: "Sloveniya",
+  },
+  {
+    id: 162,
+    flag: Solomon,
+    options: ["Solomon orollari", "Pokiston", "Somali"],
+    answer: "Solomon orollari",
+  },
+  {
+    id: 163,
+    flag: Somali,
+    options: ["Mavrikiy", "Somali", "Janubiy Afrika"],
+    answer: "Somali",
+  },
+  { 
+    id: 164,
+    flag: JanubiyA,
+    options: ["Janubiy Afrika", "Salvador", "Janubiy Koreya"],
+    answer: "Janubiy Afrika",
+  },
+  { 
+    id: 165,
+    flag: SouthK,
+    options: ["Janubiy Koreya", "Janubiy Sudan", "Eritreya"],
+    answer: "Janubiy Koreya",
+  },
+  { 
+    id: 166,
+    flag: JanubiySudan,
+    options: ["Sloveniya", "Ispaniya", "Janubiy Sudan"],
+    answer: "Janubiy Sudan",
+  },
+  { 
+    id: 167,
+    flag: Ispaniya,
+    options: ["Ispaniya", "Marokash", "Shri-Lanka"],
+    answer: "Ispaniya",
+  },
+  { 
+    id: 168,
+    flag: ShriLanka,
+    options: ["Sudan", "Shri-Lanka", "Mongoliya"],
+    answer: "Shri-Lanka",
+  },
+  { 
+    id: 169,
+    flag: Sudan,
+    options: ["Surinam", "Mavritaniya", "Sudan"],
+    answer: "Sudan",
+  },
+  { 
+    id: 170,
+    flag: Surinam,
+    options: ["Nepal", "Surinam", "Esvatini"],
+    answer: "Surinam",
+  },
+  { 
+    id: 171,
+    flag: Esvatini,
+    options: ["Norvegiya", "Shvetsiya", "Esvatini"],
+    answer: "Esvatini",
+  },
+  { 
+    id: 172,
+    flag: Shvetsiya,
+    options: ["Shvetsiya", "Ekvador", "Shveytsariya"],
+    answer: "Shvetsiya",
+  },
+  { 
+    id: 173,
+    flag: Shveytsariya,
+    options: ["Shveytsariya", "Chad", "Suriya"],
+    answer: "Shveytsariya",
+  },
+  { 
+    id: 174,
+    flag: Suriya,
+    options: ["Suriya", "Tailand", "Tojikiston"],
+    answer: "Suriya",
+  },
+  { 
+    id: 175,
+    flag: Tayvan,
+    options: ["Urugvay", "Tanzaniya", "Tayvan"],
+    answer: "Tayvan",
+  },
+  { 
+    id: 176,
+    flag: Tajikistan,
+    options: ["Ukraina", "Tojikiston", "Tailand"],
+    answer: "Tojikiston",
+  },
+  { 
+    id: 177,
+    flag: Tanzaniya,
+    options: ["Islandiya", "Tanzaniya", "Togo"],
+    answer: "Tanzaniya",
+  },
+  { 
+    id: 178,
+    flag: Tailand,
+    options: ["Tailand", "Norvegiya", "Trinidad va Tobago"],
+    answer: "Tailand",
+  },
+  { 
+    id: 179,
+    flag: SharqTimor,
+    options: ["Beliz", "Turkmaniston", "Sharq Timor"],
+    answer: "Sharq Timor",
+  },
+  {
     id: 180,
-    flag: EkvatorialG,
-    options: ["Misr", "Venesuela", "	Ekvatorial Gvineya"],
-    answer: "	Ekvatorial Gvineya",
+    flag: Togo,
+    options: ["Togo", "Venesuela", "Gabon"],
+    answer: "Togo",
   },
   {
     id: 181,
