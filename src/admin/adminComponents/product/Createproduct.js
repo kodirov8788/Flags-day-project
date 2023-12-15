@@ -1,10 +1,10 @@
 import { toast } from 'react-toastify'
-import axios from '../../../api/api'
+import Axios from '../../../api/api'
 import React, { useContext, useEffect, useState } from 'react'
 import { AuthContext } from '../../../context/AuthContext'
 import { useAuthContext } from '../../../hooks/useAuthContext'
 import { Link, useLocation } from 'react-router-dom'
-
+import axios from "axios"
 function Createproduct() {
     const { setIsLoading, sensor, setSensor } = useContext(AuthContext)
     const { user } = useAuthContext()
@@ -24,10 +24,10 @@ function Createproduct() {
     useEffect(() => {
         const getData = async () => {
             try {
-                await axios.get("product/getall").then(res => {
+                await Axios.get("product/getall").then(res => {
                     setProducts(res.data)
                 }).catch(error => console.log(error))
-                await axios.get("category/getall").then(res => {
+                await Axios.get("category/getall").then(res => {
                     setGetCategories(res.data)
                 }).catch(error => console.log(error))
             } catch (error) {
@@ -69,7 +69,7 @@ function Createproduct() {
 
         // console.log(productImages)
         try {
-            const res = await axios.post('/product/create', formData);
+            const res = await Axios.post('/product/create', formData);
             toast.success(res.data, {
                 position: toast.POSITION.TOP_RIGHT
             });
@@ -93,35 +93,37 @@ function Createproduct() {
         }
     };
     const deleteProduct = async (id) => {
+        setIsLoading(true)
         try {
-            const response = await axios.delete(`/product/delete/${id}`);
-
-            if (response.status === 200) {
+            await axios.delete(`https://testop-backned.onrender.com/product/delete/${id}`).then(() => {
                 toast.success("Muvaffaqqiyatli categoriyani o'chirdingiz!", {
                     position: toast.POSITION.TOP_RIGHT
                 });
-                setSensor(true)
+                setIsLoading(false)
                 setSensor(true)
                 setTimeout(() => {
                     setSensor(false)
 
                 }, 500);
-
-            } else {
+            }).catch(error => {
                 toast.error("Failed to delete category", {
                     position: toast.POSITION.TOP_RIGHT
                 });
+                console.log(error)
                 setSensor(true)
-                setSensor(true)
+                setIsLoading(false)
                 setTimeout(() => {
                     setSensor(false)
-
                 }, 500);
-            }
+
+            })
+
+
         } catch (error) {
             toast.error(("Failed to delete category", error), {
                 position: toast.POSITION.TOP_RIGHT
             });
+            console.log(error)
         }
     };
 
