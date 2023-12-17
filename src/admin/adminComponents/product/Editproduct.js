@@ -1,10 +1,9 @@
 import axios from '../../../api/api'
 import React, { useContext, useEffect, useState } from 'react'
 import { AuthContext } from '../../../context/AuthContext'
-import { useAuthContext } from '../../../hooks/useAuthContext'
+// import { useAuthContext } from '../../../hooks/useAuthContext'
 import { toast } from 'react-toastify'
-import Axios from 'axios'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
 function Editproduct() {
     const { setIsLoading, setSensor, sensor } = useContext(AuthContext)
     let Product = useLocation().state
@@ -75,7 +74,7 @@ function Editproduct() {
         formData.append('productCategory', productCategory);
         // console.log(productImages)
         try {
-            const res = await Axios.put(`https://testop-backned.onrender.com/product/update/${Product._id}`, formData);
+            const res = await axios.post(`product/update/${Product._id}`, formData);
             toast.success(res.data, {
                 position: toast.POSITION.TOP_RIGHT
             });

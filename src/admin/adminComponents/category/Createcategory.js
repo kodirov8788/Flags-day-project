@@ -3,7 +3,6 @@ import React, { useContext, useEffect, useState } from 'react'
 import { AuthContext } from '../../../context/AuthContext'
 import { useAuthContext } from '../../../hooks/useAuthContext'
 import { toast } from 'react-toastify'
-import Img from "../../../backgroundImages/flags.jpg"
 import { Link, useLocation } from 'react-router-dom'
 function Createcategory() {
     let location = useLocation().pathname
@@ -12,7 +11,7 @@ function Createcategory() {
     const [getCategories, setGetCategories] = useState([])
 
     const [files, setFiles] = useState(null);
-    const { user } = useAuthContext()
+    // const { user } = useAuthContext()
     const addCategory = async (e) => {
         e.preventDefault()
         setIsLoading(true)
@@ -68,7 +67,7 @@ function Createcategory() {
     const deleteCategory = async (id) => {
         setIsLoading(true)
         try {
-            const response = await axios.delete(`/category/delete/${id}`);
+            const response = await axios.post(`/category/delete/${id}`);
             console.log(response)
             if (response.status === 200) {
                 toast.success("Muvaffaqqiyatli categoriyani o'chirdingiz!", {

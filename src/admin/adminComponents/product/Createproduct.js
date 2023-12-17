@@ -4,7 +4,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import { AuthContext } from '../../../context/AuthContext'
 import { useAuthContext } from '../../../hooks/useAuthContext'
 import { Link, useLocation } from 'react-router-dom'
-import axios from "axios"
+// import axios from "axios"
 function Createproduct() {
     const { setIsLoading, sensor, setSensor } = useContext(AuthContext)
     const { user } = useAuthContext()
@@ -95,7 +95,7 @@ function Createproduct() {
     const deleteProduct = async (id) => {
         setIsLoading(true)
         try {
-            await axios.delete(`https://testop-backned.onrender.com/product/delete/${id}`).then(() => {
+            await Axios.post(`product/delete/${id}`).then(() => {
                 toast.success("Muvaffaqqiyatli categoriyani o'chirdingiz!", {
                     position: toast.POSITION.TOP_RIGHT
                 });
